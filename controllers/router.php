@@ -1,26 +1,26 @@
-<?php 
+<?php
+
+if (isset($_GET["section"])) {
     
-    if(isset($_GET["section"])){
         switch ($_GET["section"]) {
             case 'accueil':
-                include("views/page/accueil.php");
+                include("controllers/accueilController.php");
                 break;
             case 'apropos':
-                include("views/page/apropos.php");
+                include("controllers/aproposController.php");
                 break;
             case 'contact':
-                include("views/page/contact.php");
+                include("controllers/contactController.php");
                 break;
             case 'connexion':
-                    include("views/page/connexion.php");
-                    break;
-        
+                include("controllers/connexionController.php");
+                break;
+
             default:
                 # code...
                 break;
         }
-
     }
-    else {
-        include("views/page/accueil.php");
-    }
+ else {
+    include("controllers/accueilController.php");
+}
