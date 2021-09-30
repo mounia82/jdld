@@ -3,16 +3,16 @@
     if(isset($_GET["section"])){
         switch ($_GET["section"]) {
             case 'accueil':
-                include("view/page/accueil.php");
+                include("views/page/accueil.php");
                 break;
             case 'apropos':
-                include("view/page/apropos.php");
+                include("views/page/apropos.php");
                 break;
             case 'contact':
-                include("view/page/contact.php");
+                include("views/page/contact.php");
                 break;
             case 'connexion':
-                    include("view/page/connexion.php");
+                    include("views/page/connexion.php");
                     break;
         
             default:
@@ -22,6 +22,5 @@
 
     }
     else {
-        include("view/page/accueil.php");
+        include("views/page/accueil.php");
     }
-?>

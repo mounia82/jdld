@@ -1,13 +1,9 @@
 <?php 
   
-include("view/html/head.php");
+include("views/html/head.php");
 
-include("view/html/menu.php");
+include("views/html/menu.php");
 
-include("controller/router.php");
+include("controllers/router.php");
 
-include("view/html/footer.php");
-
-
-
-?>
+include("views/html/footer.php");

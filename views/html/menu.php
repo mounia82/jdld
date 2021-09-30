@@ -11,6 +11,6 @@
      
       
 
- <img class="logo" src="public/images/LogoJdld-jauneGrd.png" alt="logo">
+ <img class="logo" src="public/images/logo.png" alt="logo">
    
 
