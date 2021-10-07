@@ -2,19 +2,23 @@
 
 
 $bdd = new PDO('mysql:host=localhost;dbname=inscription;charset-utf8;', 'root', '');
-if (isset($_POST['envoyer'])) {
-    if (!empty($_POST['pseudo']) and !empty($_POST['mdp'])) {
+if (isset($_POST['submit'])) {
+    if (!empty($_POST['identifiant']) and !empty($_POST['date_naissance']) and !empty($_POST['email']) and !empty($_POST['mdp']) and !empty($_POST['confirmermdp'])) {
 
-        $pseudo = htmlspecialchars($_POST['pseudo']);
+        $identifiant = htmlspecialchars($_POST['identifiant']);
+        $date_naissance = $_POST['date_naissance'];
+        $email = $_POST['email'];
         $mdp = sha1($_POST['mdp']);
-        $insertUser = $bdd->prepare('INSERT INTO utilisateurs(pseudo,mdp)VALUES(?,?)');
-        $insertUser->execute(array($pseudo, $mdp));
+        $confirmermdp = sha1($_POST['confirmermdp']);
+        $insertUser = $bdd->prepare('INSERT INTO utilisateurs(identifiant,date_naissance,email,mdp,confirmermdp)VALUES(?,?,?,?,?)');
 
-        $recupUser = $bdd->prepare('SELECT * FROM utilisateurs WHERE pseudo = ? AND mdp = ?');
-        $recupUser->execute(array($pseudo, $mdp));
+        $insertUser->execute(array($identifiant, $date_naissance, $email, $mdp, $confirmermdp));
+
+        $recupUser = $bdd->prepare('SELECT * FROM utilisateurs WHERE identifiant = ? AND date_naissance=? AND email=? AND mdp=? AND confirmermdp=? ');
+        $recupUser->execute(array($identifiant, $date_naissance, $email, $mdp, $confirmermdp));
         if ($recupUser->rowCount() > 0) {
 
-            $_SESSION['pseudo'] = $pseudo;
+            $_SESSION['identifiant'] = $identifiant;
             $_SESSION['mdp'] = $mdp;
             $_SESSION['id'] = $recupUser->fetch()['id'];
         }
