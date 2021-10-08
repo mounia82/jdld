@@ -1,7 +1,11 @@
+
+
+
+
 <div class="containerpq">
         <div class="h1Divpq">
             <h3 class="titre1pq">Quelle émotion avez-vous ressenti? </h3>
-            <a href="accueil.php"> question précédente</a>
+            <a href="../../index.php"> question précédente</a>
         </div>
 <!-- 
         Joie
