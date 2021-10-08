@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Spartan&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="public/css/premierequestion.css">
+    <!-- <link rel="stylesheet" href="../../public/css/premierequestion.css"> -->
     <!-- <link rel="stylesheet" href="public/css/questionsuivante.css"> -->
     <!-- <link rel="stylesheet" href="../../public/css/questionsuivante.css"> -->
     <title>projet-jdld</title>
