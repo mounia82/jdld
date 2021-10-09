@@ -4,20 +4,28 @@
 
 class Utilisateur
 {
+    private $idUtilisateur;
     private $login;
     private $mdp;
     private $date_naissance;
     private $email;
 
-    public function __construct($_login, $_mdp, $_date_naissance, $_email)
+    public function __construct($_idUtilisateur,$_login, $_mdp, $_date_naissance, $_email)
     {
 
+        $this->idUtilisateur = $_idUtilisateur;
         $this->login = $_login;
         $this->mdp = $_mdp;
         $this->date_naissance = $_date_naissance;
         $this->email = $_email;
+        
     }
     ///////////////////////////// SET///////////////////////////
+
+    public function setIdUtilisateur($_idUtilisateur)
+    {
+        $this->idUtilisateur = $_idUtilisateur;
+    }
 
     public function setLogin($_login)
     {
@@ -40,6 +48,12 @@ class Utilisateur
     }
 
     //////////////////////GET/////////////////////
+
+    public function getIdUtilisateur()
+    {
+        return $this->idUtilisateur;
+    }
+
     public function getLogin()
     {
         return $this->login;

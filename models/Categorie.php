@@ -2,6 +2,7 @@
 class Categorie
 {
 
+    private $idCategorie;
     private $amis;
     private $famille;
     private $couple;
@@ -9,9 +10,9 @@ class Categorie
     private $autre;
 
 
-    public function __construct($_amis, $_famille, $_couple, $_boss, $_autre)
+    public function __construct($_idCategorie,$_amis, $_famille, $_couple, $_boss, $_autre)
     {
-
+        $this->idCategorie = $_idCategorie;
         $this->amis = $_amis;
         $this->famille = $_famille;
         $this->couple = $_couple;
@@ -20,6 +21,11 @@ class Categorie
     }
 
     ////////////////////////SET/////////////////
+
+    public function setIdCategorie ($_idCategorie)
+    {
+        $this->idCategorie = $_idCategorie;
+    }
 
     public function setAmis($_amis)
     {
@@ -49,6 +55,11 @@ class Categorie
 
 
     ////////////////GET///////////////
+
+    public function getIdCategorie()
+    {
+        return $this->idCategorie;
+    }
 
     public function getAmis()
     {

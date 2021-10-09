@@ -3,6 +3,7 @@
 class Emotion
 {
 
+    private $idEmotion;
     private $la_colere;
     private $le_degout;
     private $la_surprise;
@@ -12,9 +13,10 @@ class Emotion
     private $la_peur;
 
 
-    public function __construct($_la_colere, $_le_degout, $_la_surprise, $_le_mepris, $_la_tristesse, $_la_joie, $_la_peur)
+    public function __construct($_idEmotion,$_la_colere, $_le_degout, $_la_surprise, $_le_mepris, $_la_tristesse, $_la_joie, $_la_peur)
 
     {
+        $this->idEmotion = $_idEmotion;
         $this->la_colere = $_la_colere;
         $this->le_degout = $_le_degout;
         $this->la_surprise = $_la_surprise;
@@ -25,6 +27,11 @@ class Emotion
     }
 
     /////////////////SET/////////////////////////
+
+    public function setIdEmotion($_idEmotion)
+    {
+        $this->idEmotion = $_idEmotion;
+    }
 
     public function setLaColere($_la_colere)
     {
@@ -63,6 +70,11 @@ class Emotion
 
     //////////////////////GET///////////////////////
 
+    public function getIdEmotion()
+    {
+
+        return $this->idEmotion;
+    }
 
     public function getLaColere()
     {

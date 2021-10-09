@@ -2,14 +2,15 @@
 class Commentaire
 {
 
+    private $idCommentaire;
     private $contenu;
     private $date_com;
     private $heure_com;
 
 
-    public function __construct($_contenu, $_date_com, $_heure_com)
+    public function __construct($_idCommentaire,$_contenu, $_date_com, $_heure_com)
     {
-
+        $this->idCommentaire = $_idCommentaire;
         $this->contenu = $_contenu;
         $this->date_com = $_date_com;
         $this->heure_com = $_heure_com;
@@ -17,6 +18,10 @@ class Commentaire
 
     ////////////////////////SET////////////////////
 
+    public function setIdCommentaire($_idCommentaire)
+    {
+        $this->idCommentaire = $_idCommentaire;
+    }
 
     public function setContenu($_contenu)
     {
@@ -36,6 +41,11 @@ class Commentaire
 
 
     /////////////////////GET/////////////
+
+    public function getIdCommentaire()
+    {
+        return $this->idCommentaire;
+    }
 
     public function getContenu()
     {
