@@ -12,7 +12,8 @@
 }
 
 *{
-    background-color: #0C0B0B;
+    /* background-color:#0B0B0B; */
+    
 }
 
 /* html{
@@ -26,15 +27,20 @@
     display: flex;
     justify-content: center;
     padding-top: 80px;
+    background-color:#0C0B0B;
+   
 }
 
-#quote{
+#wrapper,.col,.row {
+    background-color:#0C0B0B;
+}
+#quotesab{
     color: white;
     font-size: 5rem;
     text-align: center;
     /*border: turquoise 1px solid;*/
 }
-#hasta{
+#hastasab{
     color: white;
     font-size: 8rem;
     font-family: "Sign";
@@ -42,7 +48,7 @@
     /*border: turquoise 1px solid;*/
 }
 
-#arnold{
+#arnoldsab{
     color: white;
     font-size: 1rem;
     text-align: left;
@@ -51,13 +57,13 @@
     font-family: "workLg";
 }
 
-#audioHasta{
+#audioHastasab{
     /*border: 1px solid turquoise;*/
     padding-left: 130px;
     margin: 0;
 }
 
-#vide{
+#videsab{
     /*border: 1px solid turquoise;*/
     color: white;
     
@@ -67,10 +73,11 @@
 
 .wrapper{
     display: flex;
+    background-color:#0C0B0B;
 }
 
 /* James Cameron Terminator the Judgment day */ 
-.realTitreTerminator{
+.realTitreTerminatorsab{
     margin: 0;
     padding: 0;
     color: white;
@@ -93,7 +100,7 @@
 
 /* Coeur */
 
-.coeur{
+.coeursab{
     display: flex;
     /*border: 1px solid turquoise;*/
 
@@ -104,7 +111,7 @@
    
 }
 
-.bulle{
+.bullesab{
     /*border: 1px solid turquoise;*/
     margin-right: 195px;
     padding-top: 51px;
