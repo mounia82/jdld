@@ -13,7 +13,10 @@
     <link rel="stylesheet" href="public/css/style.css">
     <link rel="stylesheet" href="public/css/premierequestion.css">
     <link rel="stylesheet" href="">
-    
+    <link rel="stylesheet" href="public/css/bootstrap 12.16.16.css" />
+    <link rel="stylesheet" href="public/css/bootstrap-grid.css" />
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="public/css/pageRep.css" />
    
     <title>projet-jdld</title>
 </head>
