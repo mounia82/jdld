@@ -7,7 +7,7 @@
 <div class="containerpq">
     <div class="h1Divpq">
         <h3 class="titre1pq">Avec qui avez-vous eu un différend? </h3>
-        <a href="views/page/questionsuivante.php">question suivante </a>
+        <a class="apq" href="views/page/questionsuivante.php">question suivante </a>
 
     </div>
 

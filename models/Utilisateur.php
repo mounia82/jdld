@@ -52,7 +52,7 @@ class Utilisateur
 
     public function getDateNaissance()
     {
-        return$this->date_naissance;
+        return $this->date_naissance;
     }
 
     public function getEmail()
