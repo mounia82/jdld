@@ -26,7 +26,7 @@ html{
     font-family: 'neutral_faceregular';
     line-height: 116px;
 }
- h1{
+ .h1mimi {
     text-align: center;
     margin-top: 160px;
 
@@ -35,7 +35,7 @@ html{
     color: rgb(240, 233, 233);
     font-family:'moniqablack_condensed_display' ;
  }  
- h2{
+ .h2mimi {
     font-size:15px;
     color:rgb(240, 233, 233);
     float:right;

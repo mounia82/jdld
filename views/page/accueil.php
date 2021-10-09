@@ -1,6 +1,6 @@
-<h1> J'AURAIS DU LUI DIRE . . .</h1>
+<h1 class="h1mimi"> J'AURAIS DU LUI DIRE . . .</h1>
 
-<h2>"ETRE UN AS DE LA REPARTIE, N'A JAMAIS ETE AUSSI SIMPLE "</h2>
+<h2 class="h2mimi">"ETRE UN AS DE LA REPARTIE, N'A JAMAIS ETE AUSSI SIMPLE "</h2>
 
 </div>
 
@@ -25,15 +25,15 @@
 <div id="container">
     <!-- *** PARTIE : TXT AUDIO QUOTE ****-->
     <div class="row">
-        <div id="quote" class="col-12">&#x275d;</div>
+        <div id="quotesab" class="col-12">&#x275d;</div>
 
-        <div id="hasta" class="col-12">Hasta la vista Baby</div>
-        <div id="vide" class="col-2"></div>
-        <figure id="audioHasta" class="col-5">
+        <div id="hastasab" class="col-12">Hasta la vista Baby</div>
+        <div id="videsab" class="col-2"></div>
+        <figure id="audioHastasab" class="col-5">
             <audio controls muted loop controls type="audio/wav" src="public/audio/hasta-la-vista-baby-(2).wav"></audio>
         </figure>
 
-        <div id="arnold" class="col-5">Arnold Schwarzenegger</div>
+        <div id="arnoldsab" class="col-5">Arnold Schwarzenegger</div>
     </div>
     <!-- ###  Fin DIV ROW ###-->
 
@@ -43,7 +43,7 @@
 
 <div class="wrapper">
     <div class="col audioRealTitre">
-        <p class="realTitreTerminator">
+        <p class="realTitreTerminatorsab">
             James Cameron « Terminator 2 : Judgment Day » (1991)
         </p>
 
@@ -74,10 +74,10 @@
 
 <div class="row">
     <div class="col">
-        <img class="coeur" style="width: 40px; height:auto;" src="public/images/boutons/boutonCoeurBlanc.png" alt="">
+        <img class="coeursab" style="width: 40px; height:auto;" src="public/images/boutons/boutonCoeurBlanc.png" alt="">
     </div>
-    <div class=" ">
-        <img class="bulle" style="width: 40px; height:auto;" src="public/images/boutons/bulleCommentaire.png" alt="">
+    <div class="row">
+        <img class="bullesab" style="width: 40px; height:auto;" src="public/images/boutons/bulleCommentaire.png" alt="">
     </div>
 
 </div>
