@@ -27,6 +27,5 @@ if(isset($_GET["section"])){
         else {
             include("controller/accueilController.php");
             }
-                            
-                            
+                                           
 ?>
