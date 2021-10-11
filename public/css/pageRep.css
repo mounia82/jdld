@@ -1,14 +1,14 @@
 @font-face {
     font-family: "sign";
-    src: url(public/fonts/SignPainter\ HouseScript\ Regular.ttf);
+    src: url(../fonts/SignPainter\ HouseScript\ Regular.ttf);
 }
 @font-face {
     font-family: "work";
-    src: url(public/fonts/WorkSans-Bold.ttf);
+    src: url(../fonts/WorkSans-Bold.ttf);
 }
 @font-face {
     font-family: "workLg";
-    src: url(public/fonts/WorkSans-Light.ttf);
+    src: url(../fonts/WorkSans-Light.ttf);
 }
 
 *{
