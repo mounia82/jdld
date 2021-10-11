@@ -1,5 +1,4 @@
 <?php
-
 if (isset($_GET["section"])) {
 
     switch ($_GET["section"]) {
@@ -15,14 +14,16 @@ if (isset($_GET["section"])) {
         case 'connexion':
             include("controllers/connexionController.php");
             break;
+        case 'inscription':
+            include("controllers/inscriptionController.php");
+            break;
         case 'questionsuivante':
             include("controllers/questionsuivanteController.php");
             break;
 
         default:
-            # code...
-            break;
+            include("views/error/404.php");
     }
 } else {
-    include("controllers/accueilController.php");
+    include("controller/accueilController.php");
 }
