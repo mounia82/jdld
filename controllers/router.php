@@ -20,7 +20,9 @@ if (isset($_GET["section"])) {
         case 'questionsuivante':
             include("controllers/questionsuivanteController.php");
             break;
-
+        case'gettea':
+            include("controllers/getTeaController.php");
+            break;
         default:
             include("views/error/404.php");
     }
