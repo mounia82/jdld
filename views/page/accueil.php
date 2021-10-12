@@ -4,7 +4,10 @@
 
 </div>
 
+<?php 
+    print_r($_GET)
 
+?>
 
 <div class="containerpq">
     <div class="h1Divpq">
