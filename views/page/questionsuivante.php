@@ -14,7 +14,7 @@
 
     <div class="imageDivpq">
 
-        <div><img class="imagepq" src="public/images/images2page/killbill.jpg" alt=""></div>
+        <div><a href="<?= $_SERVER["PHP_SELF"] ?>?categ=<?= $_GET["categ"]?>&emotion=colere#replique"><img class="imagepq" src="public/images/images2page/killbill.jpg" alt=""></a></div>
         <div><img class="imagepq" src="public/images/images2page/oldboy.jpg" alt=""></div>
         <div><img class="imagepq" src="public/images/images2page/seven.jpg" alt=""></div>
         <div><img class="imagepq" src="public/images/images2page/joker.jpg" alt=""></div>
@@ -22,6 +22,5 @@
         <div><img class="imagepq" src="public/images/images2page/intouchables.jpg" alt=""></div>
         <div><img class="imagepq" src="public/images/images2page/shining.jpg" alt=""></div>
     </div>
-
 
 </div>

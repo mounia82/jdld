@@ -3,10 +3,10 @@ require_once("Connection.php");
 
 class Lol extends Connection {
 	// récupérer un thé
-	public function getCat($id){
+	public function getTea($id){
 		// essaye de faire
 		try{
-			$requete= "SELECT * FROM the WHERE id_cathegorie = :id";
+			$requete= "SELECT * FROM categorie WHERE id_categorie = :id";
 			$params = array(
 				":id" => $id
 			);
@@ -62,7 +62,7 @@ class Lol extends Connection {
 	public function deleteTea($id)
 	{
 		//supprimer les données
-		$requete = "DELETE FROM the WHERE id_categorie = :id";
+		$requete = "DELETE FROM categorie WHERE id_categorie = :id";
 		$params = array(
 			":id" => $id
 		);
