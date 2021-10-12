@@ -20,9 +20,6 @@ if (isset($_GET["section"])) {
         case 'questionsuivante':
             include("controllers/questionsuivanteController.php");
             break;
-        case 'gettea':
-            include("controllers/getTeaController.php");
-            break;
         case 'replique':
             include("controllers/repliqueController.php");
             break;
