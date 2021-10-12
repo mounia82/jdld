@@ -1,4 +1,4 @@
-<span id="replique"></span>
+
 ///////////////////TEST///////////////////////
 <h2>Tous les thés</h2>
 <table>
@@ -9,8 +9,9 @@
         <th>Supprimer</th>
     </tr>
     <?= $table; ?> 
+    <?= $table2; ?>
 </table>
-
+<span id="replique"></span>
 //////////////////////////////////////////////////////
 
 <div id="container">
@@ -31,6 +32,7 @@
     <!-- *** FIN PARTIE : TXT AUDIO QUOTE ****-->
 </div>
 <!--###  Fin DIV CONTAINER  ###-->
+
 
 <div class="wrapper">
     <div class="col audioRealTitre">
