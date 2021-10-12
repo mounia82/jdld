@@ -1,13 +1,15 @@
+
+
+
 <h1 class="h1mimi"> J'AURAIS DU LUI DIRE . . .</h1>
 
 <h2 class="h2mimi">"ETRE UN AS DE LA REPARTIE, N'A JAMAIS ETE AUSSI SIMPLE "</h2>
 
+
 </div>
 
-<?php 
-    // print_r($_GET)
 
-?>
+
 
 <div class="containerpq">
     <div class="h1Divpq">
@@ -24,7 +26,7 @@
             <th>Modifier</th>
             <th>Supprimer</th>
         </tr>
-      <?= $table; ?> 
+      
     </table> -->
 
 
@@ -41,4 +43,5 @@
     </div>
 
 </div>
+
 

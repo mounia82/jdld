@@ -1,64 +1,98 @@
 <?php
+require_once("Connection.php");
 
-class Replique
-{
+class Replique extends Connection {
 
-    private $idReplique;
-    private $replique;
-    private $image;
-    private $audio;
-
-
-
-    public function __construct($_idReplique, $_replique, $_image, $_audio)
-
+    public function getReplique($id)
     {
-        $this->idReplique = $_idReplique;
-        $this->replique = $_replique;
-        $this->image = $_image;
-        $this->audio = $_audio;
+
+        try {
+            $requete = "SELECT * FROM replique WHERE id_replique = :id";
+            $params = array(":id" => $id);
+            if ($this->execute($requete, $params) != null) {
+                return $this->execute($requete, $params)[0];
+            } else {
+                throw new Exception("La replique n'existe pas");
+            }
+        } 
+        catch (Exception $e) {
+            // affiche l'erreur
+            // var_dump($e);
+            // var_dump($e->getMessage());
+            return null;
+        }
     }
 
-    /////////////////////SET//////////////////
 
-    public function setIdReplique($_idReplique)
+    public function getAllReplique()
     {
-        $this->idReplique = $_idReplique;
-    }
 
-    public function setReplique($_replique)
-    {
-        $this->replique = $_replique;
-    }
-
-    public function setImage($_image)
-    {
-        $this->image = $_image;
-    }
-
-    public function setAudio($_audio)
-    {
-        $this->audio = $_audio;
-    }
-    ////////////////GET/////////////////////
-
-    public function getIdReplique()
-    {
-        return $this->idReplique;
-    }
-
-    public function getReplique()
-    {
-        return $this->replique;
-    }
-
-    public function getImage()
-    {
-        return $this->image;
-    }
-
-    public function getAudio()
-    {
-        return $this->audio;
+        $requete = "SELECT * FROM replique";
+        return $this->execute($requete);
     }
 }
+
+
+
+
+
+
+
+
+
+
+    // private $idReplique;
+    // private $replique;
+    // private $image;
+    // private $audio;
+
+    // public function __construct($_idReplique, $_replique, $_image, $_audio)
+
+    // {
+    //     $this->idReplique = $_idReplique;
+    //     $this->replique = $_replique;
+    //     $this->image = $_image;
+    //     $this->audio = $_audio;
+    // }
+
+    // public function setIdReplique($_idReplique)
+    // {
+    //     $this->idReplique = $_idReplique;
+    // }
+
+    // public function setReplique($_replique)
+    // {
+    //     $this->replique = $_replique;
+    // }
+
+    // public function setImage($_image)
+    // {
+    //     $this->image = $_image;
+    // }
+
+    // public function setAudio($_audio)
+    // {
+    //     $this->audio = $_audio;
+    // }
+    
+
+    // public function getIdReplique()
+    // {
+    //     return $this->idReplique;
+    // }
+
+    // public function getReplique()
+    // {
+    //     return $this->replique;
+    // }
+
+    // public function getImage()
+    // {
+    //     return $this->image;
+    // }
+
+    // public function getAudio()
+    // {
+    //     return $this->audio;
+    // }
+?>
