@@ -200,13 +200,12 @@ html{
 }
 
 .apropos {
-    /* display:block; */
+    
     background-color:#0B0B0B;
-    /* background-color: rgb(2, 2, 2); */
-   height:500px;
-   /* padding-top:20px; */
+    height:700px;
+  
 }
 
 .aproposTexte {
-    padding-top:150px;
+    padding-top:160px;
 }

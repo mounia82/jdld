@@ -1,21 +1,18 @@
+<h1 class="h1mimi"> J'AURAIS DU LUI DIRE . . .</h1>
 
-    <h1 class="h1mimi"> J'AURAIS DU LUI DIRE . . .</h1>
-
-    <h2 class="h2mimi">"ETRE UN AS DE LA REPARTIE, N'A JAMAIS ETE AUSSI SIMPLE "</h2>
+<h2 class="h2mimi">"ETRE UN AS DE LA REPARTIE, N'A JAMAIS ETE AUSSI SIMPLE "</h2>
 
 
 
 </div>
 
-
-<span class="arrow">
-    <a href="#apropos">
+<a href="#apropos">
+    <span class="arrow">
         <span></span>
         <span></span>
         <span></span>
-    </a>
-</span>
-
+    </span>
+</a>
 
 
 
@@ -30,13 +27,13 @@ if (isset($_GET["categ"]) && isset($_GET["emotion"])) {
 ?>
 
 
-  <div class="apropos" id="apropos">
-      <h3 class="aproposTexte">
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum unde numquam, impedit repellendus magni sed quasi qui consectetur expedita fugit alias blanditiis aliquid illo, optio ducimus voluptatem nulla, natus cum?
-      </h3>
+<div class="apropos" id="apropos">
+    <h3 class="aproposTexte">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum unde numquam, impedit repellendus magni sed quasi qui consectetur expedita fugit alias blanditiis aliquid illo, optio ducimus voluptatem nulla, natus cum?
+    </h3>
 
 
-</div>  
+</div>
 
 <div class="containerpq">
     <div class="h1Divpq" id="generateur">
