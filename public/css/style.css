@@ -100,11 +100,12 @@ html{
 }
 .face{
     margin-left: 1169px;
-    width: 19px;
+    width: 40px;
     /* background-color: white; */
     margin-top: -9px;
     padding: 2px;
-    color:white;
+    color:rgb(255, 255, 255);
+    
 } 
 .tweet{
     width: 21px;
@@ -113,7 +114,7 @@ html{
     padding: 2px;
     margin-left: 1394px;
     text-align: center;
-    color:white;
+    background-color:white;
 }
 
 .insta{
@@ -136,11 +137,19 @@ html{
 }
 
  footer {
-     background-color:#0B0B0B; 
+     height:100px;
+     /* color:white; */
+     background-color:#000000; 
      /* position:absolute; */
      /* bottom:0; */
 } 
 
+i {
+    justify-content:center;
+    color:white;
+    font-size:25px;
+    padding:10px;
+}
 /* /////////////// fleche ///////// */
 
 
