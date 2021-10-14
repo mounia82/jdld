@@ -10,7 +10,21 @@
 
 
 
+<?php 
+    
+    if (isset($_GET["categ"]) && isset($_GET["emotion"])) {
+        echo" ceci est un test qui a l'air de fonctionner  ";
+       }
 
+      
+    ?>
+
+<div class="arrow">
+                <span></span>
+                <span></span>
+                <span></span>
+  
+</div>
 <div class="containerpq">
     <div class="h1Divpq">
         <h3 class="titre1pq">Avec qui avez-vous eu un différend? </h3>

@@ -1,8 +1,14 @@
-<?php 
-    // inclus la classe Tea
-    include("models/Lol.php");
-    include("models/Emotions.php");
-    include("models/Replique.php");
+<?php
+
+include("models/Lol.php");
+include("models/Emotions.php");
+include("models/Replique.php");
+// print_r($_GET)
+
+
+    
+ 
+   
     // créer un objet de type tea
     $tea = new Lol();
     $emotion = new Emotions();
@@ -18,6 +24,8 @@
     $table = "";
     $table2 ="";
     $table3 = "";
+   
+       
     // boucle
     foreach($teas as $t){
         // var_dump($t); 
@@ -42,27 +50,28 @@
         $table2 .= "<td>". $emo['nom_emotion'] . "</td>";
         $table2 .= "</tr>";
     }
-
+   
     foreach ($repliques as $rep)
     {
-        // var_dump($rep);
+        var_dump($rep);
         $table3 .= "<tr>";
         $table3 .= "<td>". $rep['id_replique'] . "</td>";
         $table3 .= "<td>". $rep['replique'] . "</td>";
         $table3 .= "<td>". $rep['image'] . "</td>";
         $table3 .= "</tr>";
     }
-    
-    
-    
 
       
-   
-   
-    include("views/page/replique.php");
+     
+        
+
     
-?>
+        //tu crée une petite variable avec ta réplique et tu l'affiche dans acceuil.php
+    
+  
+
+include("views/page/accueil.php");
 
    
   
-  
+   

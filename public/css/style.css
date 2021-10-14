@@ -13,6 +13,7 @@ html{
     background-position-x: center;
     margin-top: -5px;
     height: 667px;
+    
   
 }
 .menu a{
@@ -26,11 +27,13 @@ html{
 
     font-family: 'neutral_faceregular';
     line-height: 116px;
+    position:sticky;
+    overflow: hidden;
+    top:0;
 }
  .h1mimi {
     text-align: center;
     margin-top: 160px;
-
     margin-left: 100px;
     font-size: 100px;
     color: rgb(240, 233, 233);
@@ -49,7 +52,6 @@ html{
 .logo{
     width: 104px;
     height: 88px;
-    
     left: 14px;
     position: absolute;
     margin-top: 24px;
@@ -75,14 +77,11 @@ html{
 
 .media a{
     width: 21px;
-    
     margin-top: -9px;
     padding: 2px;
     margin-left: -350px;
     width: 21px;
     text-align: justify;
-    
-    
     text-decoration: none;
     margin-top: 9px;
     margin-bottom: -4px;
@@ -118,3 +117,41 @@ html{
     margin-bottom: 7px;
     margin-top: 18px;
 }
+
+
+
+  .arrow{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+  }
+  .arrow span{
+      display: block;
+      width: 30px;
+      height: 30px;
+      border-bottom: 5px solid #ffffff;
+      border-right: 5px solid #ffffff;
+      transform: rotate(45deg);
+      margin: -10px;
+      animation: animate 2s infinite;
+  }
+  .arrow span:nth-child(2){
+      animation-delay: -0.2s;
+  }
+  .arrow span:nth-child(3){
+      animation-delay: -0.4s;
+  }
+  @keyframes animate {
+      0%{
+          opacity: 0;
+          transform: rotate(45deg) translate(-20px,-20px);
+      }
+      50%{
+          opacity: 1;
+      }
+      100%{
+          opacity: 0;
+          transform: rotate(45deg) translate(20px,20px);
+      }
+  }
