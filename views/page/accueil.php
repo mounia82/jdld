@@ -8,6 +8,12 @@
 
 </div>
 
+<div class="arrow">
+                <span></span>
+                <span></span>
+                <span></span>
+  
+</div>
 
 
 <?php 
@@ -19,13 +25,9 @@
       
     ?>
 
-<div class="arrow">
-                <span></span>
-                <span></span>
-                <span></span>
-  
-</div>
+
 <div class="containerpq">
+
     <div class="h1Divpq">
         <h3 class="titre1pq">Avec qui avez-vous eu un différend? </h3>
         <a class="apq" href="?section=questionsuivante">question suivante </a>

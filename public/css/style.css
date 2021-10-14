@@ -28,7 +28,7 @@ html{
     font-family: 'neutral_faceregular';
     line-height: 116px;
     position:sticky;
-    overflow: hidden;
+    /* overflow: hidden; */
     top:0;
 }
  .h1mimi {
@@ -121,9 +121,10 @@ html{
 
 
   .arrow{
+     
       position: absolute;
-      top: 50%;
-      left: 50%;
+      top: 92%;
+      left: 50.5%;
       transform: translate(-50%,-50%);
   }
   .arrow span{
