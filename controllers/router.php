@@ -6,7 +6,7 @@ if (isset($_GET["section"])) {
             include("controllers/accueilController.php");
             break;
         case 'apropos':
-            include("controllers/aproposController.php");
+            include("controllers/accueilController.php");
             break;
         case 'contact':
             include("controllers/contactController.php");

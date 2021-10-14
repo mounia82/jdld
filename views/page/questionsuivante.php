@@ -1,8 +1,19 @@
 <div class="containerpq">
     <div class="h1Divpq">
         <h3 class="titre1pq">Quelle émotion avez-vous ressenti? </h3>
-        <a class="apq" href="?section=accueil"> question précédente</a>
+        <!-- <a class="apq" href="?section=accueil"> question précédente</a> -->
     </div>
+    <div class="light">
+    </div>
+    
+    <script type="text/javascript">
+        var pos = document.documentElement;
+        pos.addEventListener('mousemove', e =>{
+            pos.style.setProperty('--x', e.clientX + 'px')
+            pos.style.setProperty('--y', e.clientY + 'px')
+
+        })
+    </script>
     <!-- 
         Joie
         Tristesse -- 

@@ -1,8 +1,11 @@
+
+/* /////////////////////accueil de Mimi///////////////////// */
+
 html{
     margin: 0px;
     padding:0px;
     box-sizing: border-box;
-    background-color:#0B0B0B;
+    /* background-color:#0B0B0B; */
     
 }
 .menu{
@@ -50,12 +53,15 @@ html{
 }
 
 .logo{
-    width: 104px;
-    height: 88px;
-    left: 14px;
+    display:flex;
+    justify-content:flex-start;
+     width: 104px;
+     padding-top:-25px;
+   /* height: 88px; */
+    /* left: 14px; */
     position: absolute;
-    margin-top: 24px;
-    margin-left: 11px;
+    /* margin-top: 24px;
+    margin-left: 11px; */
 }
 
 @font-face {
@@ -118,10 +124,10 @@ html{
     margin-top: 18px;
 }
 
-
+/* /////////////// fleche ///////// */
 
   .arrow{
-     
+     height:20px;
       position: absolute;
       top: 92%;
       left: 50.5%;
@@ -156,3 +162,19 @@ html{
           transform: rotate(45deg) translate(20px,20px);
       }
   }
+
+  /* //////////////// mouse ///////////// */
+
+ 
+
+
+
+.light {
+    position: fixed;
+    top : 0;
+    left:0;
+    width:100%;
+    height:100%;
+    pointer-events: none;
+    background: radial-gradient(circle at var(--x) var(--y),transparent 70%, rgba(0, 0, 0, 0.95) 70%);
+}
