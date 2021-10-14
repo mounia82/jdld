@@ -1,38 +1,45 @@
 
+    <h1 class="h1mimi"> J'AURAIS DU LUI DIRE . . .</h1>
 
-<h1 class="h1mimi"> J'AURAIS DU LUI DIRE . . .</h1>
-
-<h2 class="h2mimi">"ETRE UN AS DE LA REPARTIE, N'A JAMAIS ETE AUSSI SIMPLE "</h2>
+    <h2 class="h2mimi">"ETRE UN AS DE LA REPARTIE, N'A JAMAIS ETE AUSSI SIMPLE "</h2>
 
 
 
 </div>
-<a href="?section=apropos">
-<div class="arrow">
-                <span></span>
-                <span></span>
-                <span></span>
-  
-</div>
-</a>
-
-<div class="apropos" id="apropos">
-
- </div>
-<?php 
-    
-    if (isset($_GET["categ"]) && isset($_GET["emotion"])) {
-        echo" ceci est un test qui a l'air de fonctionner  ";
-       }
-
-      
-    ?>
 
 
+<span class="arrow">
+    <a href="#apropos">
+        <span></span>
+        <span></span>
+        <span></span>
+    </a>
+</span>
+
+
+
+
+
+<?php
+
+if (isset($_GET["categ"]) && isset($_GET["emotion"])) {
+    echo " $table3  ";
+}
+
+
+?>
+
+
+  <div class="apropos" id="apropos">
+      <h3 class="aproposTexte">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum unde numquam, impedit repellendus magni sed quasi qui consectetur expedita fugit alias blanditiis aliquid illo, optio ducimus voluptatem nulla, natus cum?
+      </h3>
+
+
+</div>  
 
 <div class="containerpq">
-
-    <div class="h1Divpq">
+    <div class="h1Divpq" id="generateur">
         <h3 class="titre1pq">Avec qui avez-vous eu un différend? </h3>
         <!-- <a class="apq" href="?section=questionsuivante">question suivante </a> -->
 
@@ -51,22 +58,23 @@
 
 
 
-    
-        
-    
+
+
+
+
     <div class="light">
     </div>
-    
+
+
     <script type="text/javascript">
         var pos = document.documentElement;
-        pos.addEventListener('mousemove', e =>{
+        pos.addEventListener('mousemove', e => {
             pos.style.setProperty('--x', e.clientX + 'px')
             pos.style.setProperty('--y', e.clientY + 'px')
 
         })
     </script>
-
-    <div class="imageDivpq" >
+    <div class="imageDivpq">
 
         <div><a href="?section=questionsuivante&categ=amis"><img class="imagepq" src="public/images/images1page/final/hangover2.jpg" alt=""></a></div>
         <div><img class="imagepq" src="public/images/images1page/final/Untitled-1.jpg" alt=""></div>
@@ -76,7 +84,3 @@
     </div>
 
 </div>
-
-
-
-

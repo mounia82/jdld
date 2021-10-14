@@ -10,7 +10,7 @@ html{
 }
 .menu{
     background: url(../../public/images/imageBg.png);
-    color: black;
+    color: #0B0B0B;
     text-align: right;
     width: 100%;
     background-position-x: center;
@@ -38,7 +38,7 @@ html{
     text-align: center;
     margin-top: 160px;
     margin-left: 100px;
-    font-size: 100px;
+    font-size: 120px;
     color: rgb(240, 233, 233);
     font-family:'moniqablack_condensed_display' ;
  }  
@@ -92,27 +92,31 @@ html{
     margin-top: 9px;
     margin-bottom: -4px;
     display: inline-block;
+    
 }
 .face{
     margin-left: 1169px;
     width: 19px;
-    background-color: white;
+    /* background-color: white; */
     margin-top: -9px;
     padding: 2px;
+    color:white;
 } 
 .tweet{
     width: 21px;
-    background-color: white;
+    /* background-color: white; */
     margin-top: -9px;
     padding: 2px;
     margin-left: 1394px;
     text-align: center;
+    color:white;
 }
 
 .insta{
     margin-left: 1623px;
-    width: 21px;
-    background-color: white;
+    width: 50px;
+    color:white;
+    /* background-color: black; */
     margin-top: -9px;
     padding: 2px;
 }
@@ -127,20 +131,28 @@ html{
     margin-top: 18px;
 }
 
-footer {
+ footer {
      background-color:#0B0B0B; 
-}
+     /* position:absolute; */
+     /* bottom:0; */
+} 
 
 /* /////////////// fleche ///////// */
 
+
+
   .arrow{
-     height:20px;
+      padding-top:20px;
+     height:50px;
       position: absolute;
       top: 92%;
-      left: 50.5%;
+      left: 50.2%;
       transform: translate(-50%,-50%);
+      /* padding-bottom: 100px; */
   }
+
   .arrow span{
+      position:absolute;
       display: block;
       width: 30px;
       height: 30px;
@@ -149,6 +161,7 @@ footer {
       transform: rotate(45deg);
       margin: -10px;
       animation: animate 2s infinite;
+      
   }
   .arrow span:nth-child(2){
       animation-delay: -0.2s;
@@ -184,4 +197,16 @@ footer {
     height:100%;
     pointer-events: none;
     background: radial-gradient(circle at var(--x) var(--y),transparent 70%, rgba(0, 0, 0, 0.95) 70%);
+}
+
+.apropos {
+    /* display:block; */
+    background-color:#0B0B0B;
+    /* background-color: rgb(2, 2, 2); */
+   height:500px;
+   /* padding-top:20px; */
+}
+
+.aproposTexte {
+    padding-top:150px;
 }
