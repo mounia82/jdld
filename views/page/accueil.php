@@ -57,7 +57,7 @@ if (isset($_GET["categ"]) && isset($_GET["emotion"])) {
 
 
 
-    <div class="iconsaccueil">
+    <div class="sidebaricons">
         <i class="bi bi-facebook" style="color: rgb(253, 253, 252); "></i>
         <i class="bi bi-instagram" style="color: blanchedalmond;"></i>
         <i class="bi bi-linkedin" style="color: blanchedalmond;"></i>
