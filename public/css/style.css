@@ -8,6 +8,10 @@ html{
     /* background-color:#0B0B0B; */
     
 }
+
+/* 
+?                      MENU
+*/
 .menu{
     background: url(../../public/images/imageBg.png);
     color: #0B0B0B;
@@ -36,9 +40,10 @@ html{
     /* top:0; */
 }
 
-a {
 
-}
+/* 
+?             TITRES PAGE D'ACCUEIL
+*/
  .h1mimi {
     text-align: center;
     margin-top: 160px;
@@ -61,6 +66,9 @@ a {
     height:150px;
     background-color:#0B0B0B; 
 }
+/* 
+?                   LOGO
+*/
 .logo{
     display:flex;
     justify-content:flex-start;
@@ -89,7 +97,9 @@ a {
     font-style: normal;
 
 }
-
+/* 
+?                 ICONES FOOTER
+*/
 .media a{
     width: 21px;
     margin-top: -9px;
@@ -155,7 +165,9 @@ i {
     font-size:25px;
     padding:10px;
 }
-/* /////////////// fleche ///////// */
+/* 
+?              FLECHE ANIMEE
+*/
 
 
 
@@ -201,7 +213,9 @@ i {
       }
   }
 
-  /* //////////////// mouse ///////////// */
+ /* 
+?                 SOURIS LUMIERE
+*/
 
  
 
@@ -230,4 +244,13 @@ i {
 .aproposTexte {
     padding-top:160px;
     color:white;
+}
+
+/* 
+?                   ICONES DE COTE
+*/
+.sidebaricons{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
