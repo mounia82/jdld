@@ -31,9 +31,9 @@ if (isset($_GET["categ"]) && isset($_GET["emotion"])) {
 
 
 <div class="apropos" id="apropos">
-    <h3 class="aproposTexte">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum unde numquam, impedit repellendus magni sed quasi qui consectetur expedita fugit alias blanditiis aliquid illo, optio ducimus voluptatem nulla, natus cum?
-    </h3>
+    <h2 class="aproposTexte">
+       A propos
+    </h2>
 
 
 </div>
@@ -66,14 +66,14 @@ if (isset($_GET["categ"]) && isset($_GET["emotion"])) {
     </div>
 
 
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
         var pos = document.documentElement;
         pos.addEventListener('mousemove', e => {
             pos.style.setProperty('--x', e.clientX + 'px')
             pos.style.setProperty('--y', e.clientY + 'px')
 
         })
-    </script>
+    </script> -->
     <div class="imageDivpq">
 
         <div><a href="?section=questionsuivante&categ=amis"><img class="imagepq" src="public/images/images1page/final/hangover2.jpg" alt=""></a></div>

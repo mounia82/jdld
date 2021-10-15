@@ -215,10 +215,14 @@ i {
 .apropos {
     
     background-color:#0B0B0B;
+    display:flex;
+    justify-content: center;
     height:700px;
+    padding: 80px;
   
 }
 
 .aproposTexte {
     padding-top:160px;
+    color:white;
 }
