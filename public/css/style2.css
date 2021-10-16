@@ -1,5 +1,26 @@
-@media (max-width:576px){
+
+ /* sur les ecrans qui sont 576px ou moins ! */
+@media screen and (max-width:576px){
     .menu {
-        
+    width:100%;
     }
+
+    .h1mimi {
+    font-size: 52px;
+            } 
+
+    .h2mimi {
+     font-size:7px;
+               
+                
+            }
 }
+
+
+
+/* X-Small	None	<576px
+Small	sm	≥576px
+Medium	md	≥768px
+Large	lg	≥992px
+Extra large	xl	≥1200px
+Extra extra large	xxl	≥1400px */
