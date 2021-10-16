@@ -96,48 +96,11 @@ html{
 
 }
 /* 
-?                 ICONES FOOTER
+?                           FOOTER
 */
-.media a{
-    width: 21px;
-    margin-top: -9px;
-    padding: 2px;
-    margin-left: -350px;
-    width: 21px;
-    text-align: justify;
-    text-decoration: none;
-    margin-top: 9px;
-    margin-bottom: -4px;
-    display: inline-block;
-    
-}
-.face{
-    margin-left: 1169px;
-    width: 40px;
-    /* background-color: white; */
-    margin-top: -9px;
-    padding: 2px;
-    color:rgb(255, 255, 255);
-    
-} 
-.tweet{
-    width: 21px;
-    /* background-color: white; */
-    margin-top: -9px;
-    padding: 2px;
-    margin-left: 1394px;
-    text-align: center;
-    background-color:white;
-}
 
-.insta{
-    margin-left: 1623px;
-    width: 50px;
-    color:white;
-    /* background-color: black; */
-    margin-top: -9px;
-    padding: 2px;
-}
+
+
 .copy{
     height:50px;
     padding:0;
@@ -156,12 +119,15 @@ html{
      /* position:absolute; */
      /* bottom:0; */
 } 
-
-i {
-    justify-content:center;
+/* 
+?                              ICONES FOOTER
+*/
+.icons {
+    text-align: center;
     color:white;
     font-size:25px;
     padding:10px;
+    
 }
 /* 
 ?                               FLECHE ANIMEE
@@ -263,14 +229,10 @@ i {
 ?                                ICONES DE COTE
 */
 
+/* jfdlkfdjgl */
 
-.bi{
-   
-    padding:10px;
-   
-    
-}
-.sidebaricons{
+.sidebaricons {
+  font-size:25px;
   height:100%;
   color:rgb(255, 255, 255);
   display: flex;
@@ -280,7 +242,7 @@ i {
   /* padding-left:15px; */
   left:0;
   padding:20px;
-  padding-bottom:2px;
+  padding-bottom:5px;
   top:0;
   z-index: 1;
   padding-top:300px;

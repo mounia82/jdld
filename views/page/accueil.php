@@ -40,9 +40,9 @@ if (isset($_GET["categ"]) && isset($_GET["emotion"])) {
     <!--                                ICONES                  -->
 
     <div class="sidebaricons">
-        <a href="https://www.facebook.com/"> <i class="yes bi bi-facebook mb-3" style="color: rgb(253, 253, 252); padding:10px;"></i></a>
-        <a href="https://www.instagram.com/"> <i class="bi bi-instagram pb-3" style="color: rgb(253, 253, 252); padding:10px;"></i></a>
-        <a href="https://www.linkedin.com/"> <i class="bi bi-linkedin pb-3" stbyle="color: rgb(253, 253, 252);padding:10px; "></i></a>
+        <a href="https://www.facebook.com/"> <i class="bi bi-facebook" style="color: rgb(253, 253, 252); padding:10px;"></i></a>
+        <a href="https://www.instagram.com/"> <i class="bi bi-instagram" style="color: rgb(253, 253, 252); padding:10px;"></i></a>
+        <a href="https://www.linkedin.com/"> <i class="bi bi-linkedin" style="color: rgb(253, 253, 252);padding:10px; "></i></a>
     </div>
 
     <!--                        PARTIE A PROPOS                 -->

@@ -32,7 +32,7 @@ opacity:1;
 .containerpq {
     
     background-color: rgb(12, 11, 11);
-    height:750px;
+    height:800px;
     display:flex;
     flex-direction: column;
     align-items: center;
