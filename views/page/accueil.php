@@ -1,16 +1,23 @@
+
+/* 
+?                   TITRES ACCUEIL
+*/
+
 <h1 class="h1mimi"> J'AURAIS DU LUI DIRE . . .</h1>
 
 <h2 class="h2mimi">"ETRE UN AS DE LA REPARTIE, N'A JAMAIS ETE AUSSI SIMPLE "</h2>
-
-
 
 </div>
 
 <div class="apresmenu">
 
 </div>
-<a href="#apropos">
-    <span class="arrow">
+
+/* 
+?                     FLECHE ANIMEE
+*/
+<a href="#apropos" title="Vous voulez savoir comment cela marche? Cliquez-ici !">
+    <span class="arrow" >
         <span></span>
         <span></span>
         <span></span>
@@ -21,13 +28,19 @@
 
 <?php
 
+/* 
+?                    CODE POUR AFFICHER LA REPLIQUE
+*/
 if (isset($_GET["categ"]) && isset($_GET["emotion"])) {
     echo " $table3  ";
 }
 
 
 ?>
-
+ 
+/* 
+?                    PARTIE A PROPOS
+*/
 
 <div class="apropos" id="apropos">
     <h2 class="aproposTexte">
@@ -36,6 +49,9 @@ if (isset($_GET["categ"]) && isset($_GET["emotion"])) {
 
 
 </div>
+
+
+<!-- ?                      AFFICHES FILMS -->
 
 <div class="containerpq">
     <div class="h1Divpq" id="generateur">
@@ -57,6 +73,8 @@ if (isset($_GET["categ"]) && isset($_GET["emotion"])) {
 
 
 
+<!-- ?                         ICONS -->
+
     <div class="sidebaricons">
         <i class="bi bi-facebook" style="color: rgb(253, 253, 252); "></i>
         <i class="bi bi-instagram" style="color: blanchedalmond;"></i>
@@ -64,6 +82,8 @@ if (isset($_GET["categ"]) && isset($_GET["emotion"])) {
     </div>
 
 
+
+<!-- ?                        SOURIS LUMIERE -->
 
 
     <div class="light">
