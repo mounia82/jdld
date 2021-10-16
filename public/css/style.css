@@ -34,10 +34,8 @@ html{
 
     font-family: 'neutral_faceregular';
     line-height: 116px;
-    /* position:fixed; */
-    /* overflow: hidden; */
    
-    /* top:0; */
+
 }
 
 
@@ -166,7 +164,7 @@ i {
     padding:10px;
 }
 /* 
-?              FLECHE ANIMEE
+?                               FLECHE ANIMEE
 */
 
 
@@ -216,7 +214,7 @@ i {
 
 
  /* 
-?                 SOURIS LUMIERE
+?                               SOURIS LUMIERE
 */
 
  
@@ -230,24 +228,39 @@ i {
     pointer-events: none;
     background: radial-gradient(circle at var(--x) var(--y),transparent 70%, rgba(0, 0, 0, 0.95) 70%);
 }
-
+ /*
+ ?                             SECTION A PROPOS
+ */
 .apropos {
     
     background-color:#0B0B0B;
     display:flex;
-    justify-content: center;
+    align-items:space-between;
+    justify-content:flex-start;
     height:700px;
-    padding: 80px;
+    padding-right: -20px;
+    flex-direction: column;
+    padding-left:100px;
+   
   
 }
 
-.aproposTexte {
-    padding-top:160px;
+.aproposTitre {
+    padding-top:90px;
+     padding-left:100px;
     color:white;
 }
 
+.aproposTexte {
+  
+  padding-top:50px;
+  padding-left:100px;
+  color:white;
+   
+    
+}
 /* 
-?                   ICONES DE COTE
+?                                ICONES DE COTE
 */
 
 

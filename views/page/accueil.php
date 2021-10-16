@@ -1,4 +1,4 @@
-<!--                    TITRES ACCUEIL -->
+<!--                           TITRES ACCUEIL -->
 
 
 <h1 class="h1mimi"> J'AURAIS DU LUI DIRE . . .</h1>
@@ -12,7 +12,7 @@
 </div>
 
 
-<!--                      FLECHE ANIMEE -->
+<!--                              FLECHE ANIMEE -->
 
 <a href="#apropos" title="Vous voulez savoir comment cela marche? Cliquez-ici !">
     <span class="arrow">
@@ -27,7 +27,7 @@
 <?php
 
 
-//  CODE POUR AFFICHER LA REPLIQUE
+//                         CODE POUR AFFICHER LA REPLIQUE
 
 if (isset($_GET["categ"]) && isset($_GET["emotion"])) {
     echo " $table3  ";
@@ -35,24 +35,35 @@ if (isset($_GET["categ"]) && isset($_GET["emotion"])) {
 
 
 ?>
-<!--                        PARTIE A PROPOS -->
+
 <div class="toutlesite">
+    <!--                                ICONES                  -->
 
     <div class="sidebaricons">
         <a href="https://www.facebook.com/"> <i class="yes bi bi-facebook mb-3" style="color: rgb(253, 253, 252); padding:10px;"></i></a>
         <a href="https://www.instagram.com/"> <i class="bi bi-instagram pb-3" style="color: rgb(253, 253, 252); padding:10px;"></i></a>
         <a href="https://www.linkedin.com/"> <i class="bi bi-linkedin pb-3" stbyle="color: rgb(253, 253, 252);padding:10px; "></i></a>
     </div>
+
+    <!--                        PARTIE A PROPOS                 -->
+
     <div class="apropos" id="apropos">
-        <h2 class="aproposTexte">
-            A propos
-        </h2>
 
-
+        <div class="aproposTitre">
+            <h2 >
+                A propos
+            </h2>
+        </div>
+        
+        <div class="aproposTexte">
+            <h3 >
+                fdljgld
+            </h3>
+        </div>
     </div>
 
 
-    <!--  AFFICHES FILMS -->
+    <!--                             AFFICHES FILMS -->
 
     <div class="containerpq">
         <div class="h1Divpq" id="generateur">
@@ -91,7 +102,7 @@ if (isset($_GET["categ"]) && isset($_GET["emotion"])) {
 
 
 
-    <!-- SOURIS LUMIERE -->
+    <!--                              SOURIS LUMIERE -->
 
 
     <div class="light">
