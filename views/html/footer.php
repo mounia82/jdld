@@ -1,8 +1,8 @@
 <footer>
     <div class="icons">
         <i class="bi bi-facebook" style="color: rgb(253, 253, 252); "></i>
-        <i class="bi bi-instagram" style="color: blanchedalmond;"></i>
-        <i class="bi bi-linkedin" style="color: blanchedalmond;"></i>
+        <i class="bi bi-instagram" style="color: rgb(253, 253, 252); "></i>
+        <i class="bi bi-linkedin" style="color: rgb(253, 253, 252); "></i>
     </div>
     <!-- 
     <div class="media">

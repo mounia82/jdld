@@ -214,7 +214,7 @@ i {
       }
   }
 
-  
+
  /* 
 ?                 SOURIS LUMIERE
 */
@@ -249,8 +249,28 @@ i {
 /* 
 ?                   ICONES DE COTE
 */
+
+
+.bi{
+   
+    padding:10px;
+   
+    
+}
 .sidebaricons{
+  height:100%;
+  color:rgb(255, 255, 255);
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  position:fixed;
+  /* padding-left:15px; */
+  left:0;
+  padding:20px;
+  padding-bottom:2px;
+  top:0;
+  z-index: 1;
+  padding-top:300px;
+  
 }
+
