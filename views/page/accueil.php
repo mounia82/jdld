@@ -57,7 +57,10 @@ if (isset($_GET["categ"]) && isset($_GET["emotion"])) {
         
         <div class="aproposTexte">
             <h3 >
-                fdljgld
+                Devenir un as de la répartie? Mais comment ? <br>
+                Alors, c'est très simple. Il suffit de scroller en bas et choisir la catégorie et l'émotion ressentie lors  de votre discussion afin qu'une réplique ??? soit générée! Deux répliques s'appliqueront par catégorie et émotion. Vous n'y trouvez pas votre compte ? On a pensé à tout: choisissez autre dans les deux champs et le tour est joué!
+                N'oubliez pas le second degré lorsque la réplique vous est présentée, parce que nous, nous l'avons pas oublié :)
+
             </h3>
         </div>
     </div>

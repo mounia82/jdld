@@ -210,6 +210,7 @@ html{
     padding-right: -20px;
     flex-direction: column;
     padding-left:100px;
+    
    
   
 }
@@ -218,6 +219,7 @@ html{
     padding-top:90px;
      padding-left:100px;
     color:white;
+    
 }
 
 .aproposTexte {
@@ -225,7 +227,9 @@ html{
   padding-top:50px;
   padding-left:100px;
   color:white;
-   
+  width:75%;
+ letter-spacing: 1px;
+ 
     
 }
 /* 
