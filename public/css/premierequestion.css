@@ -3,7 +3,7 @@
 
 .titre1pq {
     text-align: center;
-    font-size: 25px;
+    font-size: 35px;
     color: rgb(245, 238, 238);
     font-family: 'Spartan', sans-serif;
     
@@ -15,8 +15,8 @@
 
 .imagepq {
     padding: 15px;
-    width:210px;
-    height:290px;
+    width:240px;
+    height:330px;
     opacity: 0.5;
    
     
@@ -31,27 +31,30 @@ opacity:1;
 
 .containerpq {
     
-    background-color: rgb(12, 11, 11);
-    height:800px;
+    background-color:#0B0B0B ;
+    height:900px;
     display:flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: column;
+    
 
 }
 .imageDivpq {
+    padding-top:70px;
     display: flex;
     flex-direction: row;
 }
 
 .h1Divpq {
+    padding-top:100px;
     display: flex;
     flex-direction: column;
     /* align-self: flex-end; */
     align-content: flex-end;
     /* padding-bottom: 20px; */
-    height:120px
+    height:120px;
     
 }
 .apq {
