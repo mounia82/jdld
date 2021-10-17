@@ -68,22 +68,22 @@ if (isset($_GET["categ"]) && isset($_GET["emotion"])) {
 
     <!--                             AFFICHES FILMS -->
 
-    <div class="containerpq">
-        <div class="h1Divpq" id="generateur">
-            <h3 class="titre1pq">Avec qui avez-vous eu un différend? </h3>
+    <div class="containerpqiman">
+        <div class="h1Divpqiman" id="generateur">
+            <h3 class="titre1pqiman">A qui s'adresse la réplique? </h3>
             <!-- <a class="apq" href="?section=questionsuivante">question suivante </a> -->
 
-            <div class="imageDivpq">
+            <div class="imageDivpqiman">
 
-                <div><a href="?section=questionsuivante&categ=amis"><img class="imagepq" src="public/images/images1page/final/hangover2.jpg" alt=""></a></div>
+                <div><a href="?section=questionsuivante&categ=amis"><img class="imagepqiman" src="public/images/images1page/final/hangover2.jpg" alt=""></a></div>
 
-                <div><a href="?section=questionsuivante&categ=couple"><img class="imagepq" src="public/images/images1page/final/Untitled-1.jpg" alt=""></a></div>
+                <div><a href="?section=questionsuivante&categ=couple"><img class="imagepqiman" src="public/images/images1page/final/Untitled-1.jpg" alt=""></a></div>
 
-                <div><a href="?section=questionsuivante&categ=famille"><img class="imagepq" src="public/images/images1page/final/tuche22.jpg" alt=""></a></div>
+                <div><a href="?section=questionsuivante&categ=famille"><img class="imagepqiman" src="public/images/images1page/final/tuche22.jpg" alt=""></a></div>
 
-                <div><a href="?section=questionsuivante&categ=boss"><img class="imagepq" src="public/images/images1page/final/work.jpg" alt=""></a></div>
+                <div><a href="?section=questionsuivante&categ=boss"><img class="imagepqiman" src="public/images/images1page/final/work.jpg" alt=""></a></div>
                 
-                <div><a href="?section=questionsuivante&categ=boss"><img class="imagepq" src="public/images/images1page/final/autres.jpg" alt=""></a></div>
+                <div><a href="?section=questionsuivante&categ=boss"><img class="imagepqiman" src="public/images/images1page/final/autres.jpg" alt=""></a></div>
             </div>
 
         </div>
