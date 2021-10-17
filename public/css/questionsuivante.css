@@ -32,12 +32,12 @@ body {
 .containerpq {
     
     background-color:#0B0B0B;;
-    height:950px;
+    height:850px;
     display:flex;
     flex-direction: column;
     align-items: center;
     /* justify-content: center; */
-    flex-wrap:wrap;
+    /* flex-wrap:wrap; */
 
 }
 .imageDivpq {
@@ -78,3 +78,12 @@ body {
     pointer-events: none;
     background: radial-gradient(circle at var(--x) var(--y),transparent 70%, rgba(0, 0, 0, 0.95) 70%);
 }
+
+footer {
+    height:120px;
+    background-color: black;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+} 
