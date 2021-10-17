@@ -50,15 +50,15 @@ if (isset($_GET["categ"]) && isset($_GET["emotion"])) {
     <div class="apropos" id="apropos">
 
         <div class="aproposTitre">
-            <h2 >
+            <h2>
                 A propos
             </h2>
         </div>
-        
+
         <div class="aproposTexte">
-            <h3 >
+            <h3>
                 Devenir un as de la répartie? Mais comment ? <br>
-                Alors, c'est très simple. Il suffit de scroller en bas et choisir la catégorie et l'émotion ressentie lors  de votre discussion afin qu'une réplique ??? soit générée! Deux répliques s'appliqueront par catégorie et émotion. Vous n'y trouvez pas votre compte ? On a pensé à tout: choisissez autre dans les deux champs et le tour est joué!
+                Alors, c'est très simple. Il suffit de scroller en bas et choisir la catégorie et l'émotion ressentie lors de votre discussion afin qu'une réplique ??? soit générée! Deux répliques s'appliqueront par catégorie et émotion. Vous n'y trouvez pas votre compte ? On a pensé à tout: choisissez autre dans les deux champs et le tour est joué!
                 N'oubliez pas le second degré lorsque la réplique vous est présentée, parce que nous, nous l'avons pas oublié :)
 
             </h3>
@@ -76,10 +76,14 @@ if (isset($_GET["categ"]) && isset($_GET["emotion"])) {
             <div class="imageDivpq">
 
                 <div><a href="?section=questionsuivante&categ=amis"><img class="imagepq" src="public/images/images1page/final/hangover2.jpg" alt=""></a></div>
-                <div><img class="imagepq" src="public/images/images1page/final/Untitled-1.jpg" alt=""></div>
-                <div><img class="imagepq" src="public/images/images1page/final/tuche22.jpg" alt=""></div>
-                <div><img class="imagepq" src="public/images/images1page/final/work.jpg" alt=""></div>
-                <div><img class="imagepq" src="public/images/images1page/final/autres.jpg" alt=""></div>
+
+                <div><a href="?section=questionsuivante&categ=couple"><img class="imagepq" src="public/images/images1page/final/Untitled-1.jpg" alt=""></a></div>
+
+                <div><a href="?section=questionsuivante&categ=famille"><img class="imagepq" src="public/images/images1page/final/tuche22.jpg" alt=""></a></div>
+
+                <div><a href="?section=questionsuivante&categ=boss"><img class="imagepq" src="public/images/images1page/final/work.jpg" alt=""></a></div>
+                
+                <div><a href="?section=questionsuivante&categ=boss"><img class="imagepq" src="public/images/images1page/final/autres.jpg" alt=""></a></div>
             </div>
 
         </div>
