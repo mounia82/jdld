@@ -22,7 +22,7 @@
             $repliques = $replique->getRepliqueByCategAndEmot($_GET["categ"], $_GET["emotion"]);
 
            /* ?><pre><?= print_r($repliques); ?></pre><?php */
-
+$table3="";
             foreach ($repliques as $rep)
             {
                 // var_dump($rep);
