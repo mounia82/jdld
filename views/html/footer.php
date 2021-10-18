@@ -1,4 +1,3 @@
-
 <footer>
     <div class="icons">
         <i class="bi bi-facebook" style="color: rgb(253, 253, 252); "></i>
@@ -17,7 +16,7 @@
 
 
 
-
-    </body>
-    </html>
 </footer>
+</body>
+
+</html>
