@@ -13,7 +13,7 @@
 
     <script src="public/js/script.js"></script>
 
-
+    <script src="https://unpkg.com/scrollreveal"></script>
 
 
 </footer>

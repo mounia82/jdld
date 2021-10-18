@@ -1,6 +1,6 @@
 <div class="menu">
      
-<img class="logo" src="public/images/logo.png" alt="logo">
+<a href="?section=accueil"><img class="logo" src="public/images/logo.png" alt="logo"></a>
 
      <a href="#apropos">A PROPOS</a>
 
