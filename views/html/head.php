@@ -20,6 +20,16 @@
     <link rel="stylesheet" href="public/css/premierequestion.css">
     <link rel="stylesheet" href="public/css/style.css">
     <link rel="stylesheet" href="public/css/questionsuivante.css">
+    <style>
+    .displayReplique {
+        height:600px;
+        background-color:black;
+        color:white;
+        font-size:60px;
+        /* display:flex; */
+        text-align: center;
+    }
+    </style>
     <title>projet-jdld</title>
 </head>
 

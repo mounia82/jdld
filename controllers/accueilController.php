@@ -21,15 +21,17 @@
         {
             $repliques = $replique->getRepliqueByCategAndEmot($_GET["categ"], $_GET["emotion"]);
 
-            ?><pre><?= print_r($repliques); ?></pre><?php
+           /* ?><pre><?= print_r($repliques); ?></pre><?php */
 
             foreach ($repliques as $rep)
             {
                 // var_dump($rep);
                 $table3 .= "<tr>";
-                $table3 .= "<td>". $rep['id_replique'] . "</td>";
-                $table3 .= "<td>". $rep['replique'] . "</td>";
-                $table3 .= "<td><img src='". $rep['image'] . "'></td>";
+              /*  $table3 .= "<td>". $rep['id_replique'] . "</td>"; */
+              /*  $table3 .= "<td>". $rep['replique'] . "</td>"; */
+             /*   $table3 .= "<td><img src='". $rep['image'] . "'></td>"; */
+                $table3 .= "<p class=\"displayReplique\">" . $rep['replique'] . "<br>". "<audio controls
+                src=public/audio/chewinggum.mp3>" ."</audio>" ."<br>"."<img src='".  $rep['image'] . "'>"."</p>";
                 $table3 .= "</tr>";
             }
 
