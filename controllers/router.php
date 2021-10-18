@@ -6,7 +6,7 @@ if (isset($_GET["section"])) {
             include("controllers/accueilController.php");
             break;
         case 'apropos':
-            include("controllers/aproposController.php");
+            include("controllers/accueilController.php");
             break;
         case 'contact':
             include("controllers/contactController.php");
@@ -20,7 +20,9 @@ if (isset($_GET["section"])) {
         case 'questionsuivante':
             include("controllers/questionsuivanteController.php");
             break;
-
+        case 'replique':
+            include("controllers/repliqueController.php");
+            break;
         default:
             include("views/error/404.php");
     }

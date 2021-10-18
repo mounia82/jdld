@@ -1,83 +1,144 @@
+<!--                           TITRES ACCUEIL -->
+
+
 <h1 class="h1mimi"> J'AURAIS DU LUI DIRE . . .</h1>
 
 <h2 class="h2mimi">"ETRE UN AS DE LA REPARTIE, N'A JAMAIS ETE AUSSI SIMPLE "</h2>
 
 </div>
 
-<div class="containerpq">
-    <div class="h1Divpq">
-        <h3 class="titre1pq">Avec qui avez-vous eu un différend? </h3>
-        <a class="apq" href="?section=questionsuivante">question suivante </a>
-
-    </div>
-
-    <div class="imageDivpq">
-
-        <div><img class="imagepq" src="public/images/images1page/final/hangover2.jpg" alt=""></div>
-        <div><img class="imagepq" src="public/images/images1page/final/Untitled-1.jpg" alt=""></div>
-        <div><img class="imagepq" src="public/images/images1page/final/tuche22.jpg" alt=""></div>
-        <div><img class="imagepq" src="public/images/images1page/final/work.jpg" alt=""></div>
-        <div><img class="imagepq" src="public/images/images1page/final/autres.jpg" alt=""></div>
-    </div>
+<div class="apresmenu">
 
 </div>
 
-<div id="container">
-    <!-- *** PARTIE : TXT AUDIO QUOTE ****-->
-    <div class="row">
-        <div id="quotesab" class="col-12">&#x275d;</div>
 
-        <div id="hastasab" class="col-12">Hasta la vista Baby</div>
-        <div id="videsab" class="col-2"></div>
-        <figure id="audioHastasab" class="col-5">
-            <audio controls muted loop controls type="audio/wav" src="public/audio/hasta-la-vista-baby-(2).wav"></audio>
-        </figure>
+<!--                              FLECHE ANIMEE -->
 
-        <div id="arnoldsab" class="col-5">Arnold Schwarzenegger</div>
+<a href="#apropos" title="Vous voulez savoir comment cela marche? Cliquez-ici !">
+    <span class="arrow">
+        <span></span>
+        <span></span>
+        <span></span>
+    </span>
+</a>
+
+<span id="replique"></span>
+
+<?php
+
+
+//                         CODE POUR AFFICHER LA REPLIQUE
+
+if (isset($_GET["categ"]) && isset($_GET["emotion"])) {
+    echo " $table3  ";
+}
+
+
+?>
+
+<div class="toutlesite">
+    <!--                                ICONES                  -->
+
+    <div class="sidebaricons">
+        <a href="https://www.facebook.com/"> <i class="bi bi-facebook" style="color: rgb(253, 253, 252); padding:10px;"></i></a>
+        <a href="https://www.instagram.com/"> <i class="bi bi-instagram" style="color: rgb(253, 253, 252); padding:10px;"></i></a>
+        <a href="https://www.linkedin.com/"> <i class="bi bi-linkedin" style="color: rgb(253, 253, 252);padding:10px; "></i></a>
     </div>
-    <!-- ###  Fin DIV ROW ###-->
 
-    <!-- *** FIN PARTIE : TXT AUDIO QUOTE ****-->
-</div>
-<!--###  Fin DIV CONTAINER  ###-->
+    <!--                        PARTIE A PROPOS                 -->
 
-<div class="wrapper">
-    <div class="col audioRealTitre">
-        <p class="realTitreTerminatorsab">
-            James Cameron « Terminator 2 : Judgment Day » (1991)
-        </p>
+    <div class="apropos" id="apropos">
 
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="d-block w-40" src="public/images/bF-terminator.png" alt="First slide">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-40" src="public/images/bF-terminator.png" alt="Second slide">
-                </div>
+        <div class="aproposTitre">
+            <h2>
+                A propos
+            </h2>
+        </div>
 
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
+        <div class="aproposTexte">
+            <h3>
+                Devenir un as de la répartie? Mais comment ? <br>
+                Alors, c'est très simple. Il suffit de scroller en bas et choisir la catégorie et l'émotion ressentie lors de votre discussion afin qu'une réplique ??? soit générée! Deux répliques s'appliqueront par catégorie et émotion. Vous n'y trouvez pas votre compte ? On a pensé à tout: choisissez autre dans les deux champs et le tour est joué!
+                N'oubliez pas le second degré lorsque la réplique vous est présentée, parce que nous, nous l'avons pas oublié :)
+
+            </h3>
         </div>
     </div>
 
-</div>
-</div>
+
+    <!--                             AFFICHES FILMS -->
+
+    <div class="containerpqiman">
+        <div class="h1Divpqiman" id="generateur">
+            <h3 class="titre1pqiman">A qui s'adresse la réplique? </h3>
+            <!-- <a class="apq" href="?section=questionsuivante">question suivante </a> -->
+
+            <div class="imageDivpqiman">
+
+                <div><a href="?section=questionsuivante&categ=amis"><img class="imagepqiman" src="public/images/images1page/final/hangover2.jpg" alt=""></a></div>
+
+                <div><a href="?section=questionsuivante&categ=couple"><img class="imagepqiman" src="public/images/images1page/final/Untitled-1.jpg" alt=""></a></div>
+
+                <div><a href="?section=questionsuivante&categ=famille"><img class="imagepqiman" src="public/images/images1page/final/tuche22.jpg" alt=""></a></div>
+
+                <div><a href="?section=questionsuivante&categ=boss"><img class="imagepqiman" src="public/images/images1page/final/work.jpg" alt=""></a></div>
+                
+                <div><a href="?section=questionsuivante&categ=autre"><img class="imagepqiman" src="public/images/images1page/final/autres.jpg" alt=""></a></div>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- //////////////////////////////:test//////////////////////// -->
+    <!-- <h2>Hey</h2>
+    <table>
+        <tr>
+            <th>Id</th>
+            <th>Nom</th>
+            <th>Modifier</th>
+            <th>Supprimer</th>
+        </tr>
+      
+    </table> -->
 
 
-<div class="row">
-    <div class="col">
-        <img class="coeursab" style="width: 40px; height:auto;" src="public/images/boutons/boutonCoeurBlanc.png" alt="">
+
+    <!--  ICONS -->
+
+
+
+
+
+    <!--                              SOURIS LUMIERE -->
+
+
+    <div class="light">
     </div>
-    <div class="row">
-        <img class="bullesab" style="width: 40px; height:auto;" src="public/images/boutons/bulleCommentaire.png" alt="">
-    </div>
+
+
+    <!-- <script type="text/javascript">
+        var pos = document.documentElement;
+        pos.addEventListener('mousemove', e => {
+            pos.style.setProperty('--x', e.clientX + 'px')
+            pos.style.setProperty('--y', e.clientY + 'px')
+
+        })
+    </script> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </div>

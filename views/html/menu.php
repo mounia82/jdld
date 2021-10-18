@@ -1,8 +1,10 @@
 <div class="menu">
      
-     <a href="?section=apropos">A PROPOS</a>
+<img class="logo" src="public/images/logo.png" alt="logo">
 
-     <a href="?section=generateur">GENERATEUR</a>
+     <a href="#apropos">A PROPOS</a>
+
+     <a href="#generateur">GENERATEUR</a>
 
      <a href="?section=contact">CONTACT</a>
 
@@ -11,6 +13,6 @@
      
       
 
- <img class="logo" src="public/images/logo.png" alt="logo">
+ 
    
 
