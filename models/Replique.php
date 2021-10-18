@@ -23,6 +23,28 @@ class Replique extends Connection {
         }
     }
 
+    public function getRepliqueByCategAndEmot($categ, $emotion)
+    {
+        try{
+            $requete = "select * from replique
+            join emotions on replique.emotion_id = emotions.id_emotions
+            join categorie on replique.categorie_id = categorie.id_categorie
+            where categorie.nom_categorie = :categ and emotions.nom_emotion = :emot";
+
+            $params = array(":categ" => $categ, ":emot" => $emotion);
+            if($this->execute($requete, $params) != null){
+                return $this->execute($requete, $params);
+            }else{
+                throw new Exception("La réplique n'existe pas");
+            }
+
+        }
+        catch(Exception $e)
+        {
+            return null;
+        }
+    }
+
 
     public function getAllReplique()
     {

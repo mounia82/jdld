@@ -83,7 +83,7 @@ if (isset($_GET["categ"]) && isset($_GET["emotion"])) {
 
                 <div><a href="?section=questionsuivante&categ=boss"><img class="imagepqiman" src="public/images/images1page/final/work.jpg" alt=""></a></div>
                 
-                <div><a href="?section=questionsuivante&categ=boss"><img class="imagepqiman" src="public/images/images1page/final/autres.jpg" alt=""></a></div>
+                <div><a href="?section=questionsuivante&categ=autre"><img class="imagepqiman" src="public/images/images1page/final/autres.jpg" alt=""></a></div>
             </div>
 
         </div>

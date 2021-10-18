@@ -15,20 +15,38 @@
         include("models/Emotions.php");
         include("models/Replique.php");
         // créer un objet de type tea
-        $tea = new Lol();
-        $emotion = new Emotions();
         $replique= new Replique();
+
+        if(isset($_GET["categ"]) && isset($_GET["emotion"]))
+        {
+            $repliques = $replique->getRepliqueByCategAndEmot($_GET["categ"], $_GET["emotion"]);
+
+            ?><pre><?= print_r($repliques); ?></pre><?php
+
+            foreach ($repliques as $rep)
+            {
+                // var_dump($rep);
+                $table3 .= "<tr>";
+                $table3 .= "<td>". $rep['id_replique'] . "</td>";
+                $table3 .= "<td>". $rep['replique'] . "</td>";
+                $table3 .= "<td><img src='". $rep['image'] . "'></td>";
+                $table3 .= "</tr>";
+            }
+
+        }
         // faire appel getAllTea qui récupérer tout depuis la table The
-        $teas = $tea->getAllTea();
-        $emotionss = $emotion->getAllEmotions();
-        $repliques = $replique->getAllReplique();
+        
         // afficher momentanément les tés
         //  var_dump($teas);
     
         // générer le table
+        /*
         $table = "";
         $table2 ="";
         $table3 = "";
+        */
+
+
         // boucle
         // foreach($teas as $t){
         //     // var_dump($t); 
@@ -54,16 +72,9 @@
         //     $table2 .= "</tr>";
         // }
     
-        foreach ($repliques as $rep)
-        {
-            // var_dump($rep);
-            $table3 .= "<tr>";
-            $table3 .= "<td>". $rep['id_replique'] . "</td>";
-            $table3 .= "<td>". $rep['replique'] . "</td>";
-            $table3 .= "<td>". $rep['image'] . "</td>";
-            $table3 .= "</tr>";
-        }
+        /*
         
+        */
         
         
     
