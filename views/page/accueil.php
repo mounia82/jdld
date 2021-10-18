@@ -32,7 +32,7 @@
 if (isset($_GET["categ"]) && isset($_GET["emotion"])) {
     echo " $table3  ";
 }
-<h2></h2>
+
 
 ?>
 
