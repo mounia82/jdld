@@ -2,15 +2,19 @@ html {
     margin: 0px;
     padding:0px;
     box-sizing: border-box;
+    background-color:#0B0B0B;
+
 
 }
 
 
 .titre1pq {
+    padding-top:25px;
     text-align: center;
     font-size: 35px;
     color: rgb(245, 238, 238);
     font-family: 'Spartan', sans-serif;
+    
     
 }
 
@@ -36,18 +40,18 @@ html {
     
     background-color:#0B0B0B;
     display:flex;
-    height:900px;
+    height:1000px;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    
-   
+    justify-content: flex-start;
+
 
 }
 
 
 .h1Divpq {
-    padding-bottom:100px;
+    padding-top:40px;
+    padding-bottom:80px;
     display: flex;
     flex-direction: column;
     /* align-self: flex-end; */
@@ -85,11 +89,21 @@ html {
 ?                           FOOTER
 */
 
-
+footer {
+    padding:0;
+    margin:0;
+    clear:both;
+    position:relative;
+    height:120px;
+    background-color: black;
+    width: 100%;
+    
+}
 
 .bruh {
     display:flex;
     flex-direction:row;
+    
     
 }
 
