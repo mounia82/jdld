@@ -1,34 +1,24 @@
 <?php
-class Acteur
-{
+require_once("Connection.php");
 
-    private $idActeur;
-    private $nomActeur;
+class Acteur extends Connection {
 
-    public function __construct($_nomActeur, $_idActeur)
-    {
-        $this->nom = $_nomActeur;
-        $this->idActeur = $_idActeur;
+    public function getActeurNom($nom,$prenom) {
+        try {
+            $requete = "SELECT * FROM acteur WHERE nom = :nom,prenom = :prenom";
+            $params = array(":nom" => $nom, ":prenom" => $prenom);
+            if ($this->execute($requete, $params) != null) {
+                return $this->execute($requete, $params)[0];
+            } else {
+                throw new Exception("Le nom n'existe pas");
+            }
+        }
+        catch (Exception $e) {
+            // affiche l'erreur
+            // var_dump($e);
+            // var_dump($e->getMessage());
+            return null;
+        }
     }
-
-////////////SET////////////////:
-    public function setidActeur($_idActeur) {
-        $this->idActeur = $_idActeur;
-    }
-
-    public function setnomActeur($_nomActeur) {
-        $this->nomActeur = $_nomActeur;
-    }
-
-    ////////////GET////////////////
-
-    public function getidActeur() {
-        return $this->idActeur;
-    }
-    
-    public function getnomActeur() {
-        return $this->nomActeur;
-    }
-
 
 }

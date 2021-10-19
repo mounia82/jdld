@@ -28,7 +28,7 @@
 //                         CODE POUR AFFICHER LA REPLIQUE
 
 if (isset($_GET["categ"]) && isset($_GET["emotion"])) {
-    echo " $table3  ";
+    echo " $table3 ";
 }
 
 

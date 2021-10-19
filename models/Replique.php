@@ -26,9 +26,12 @@ class Replique extends Connection {
     public function getRepliqueByCategAndEmot($categ, $emotion)
     {
         try{
-            $requete = "select * from replique
+            $requete = "select id_replique,replique,traduction,image,audio, film.titre as film_titre, film.date_film as film_date , realisateur.nom as realisateur_nom, realisateur.prenom as realisateur_prenom, acteur.nom as acteur_nom, acteur.prenom as acteur_prenom from replique
             join emotions on replique.emotion_id = emotions.id_emotions
             join categorie on replique.categorie_id = categorie.id_categorie
+            JOIN film on replique.film_id = film.id_film
+            JOIN acteur on acteur.id_acteur = film.acteur_id
+            JOIN realisateur on film.realisateur_id = realisateur.id_realisateur
             where categorie.nom_categorie = :categ and emotions.nom_emotion = :emot";
 
             $params = array(":categ" => $categ, ":emot" => $emotion);
