@@ -22,23 +22,23 @@ $replique = new Replique();
 
 if (isset($_GET["categ"]) && isset($_GET["emotion"])) {
     $repliques = $replique->getRepliqueByCategAndEmot($_GET["categ"], $_GET["emotion"]);
-    var_dump($repliques);
+    // var_dump($repliques);
   
     /* ?><pre><?= print_r($repliques); ?></pre><?php */
     $table3 = "";
   
     foreach ($repliques as $rep) {
-
+        
 
         // var_dump($rep);
         $table3 .= "<tr>";
         /*  $table3 .= "<td>". $rep['id_replique'] . "</td>"; */
         /*  $table3 .= "<td>". $rep['replique'] . "</td>"; */
         /*   $table3 .= "<td><img src='". $rep['image'] . "'></td>"; */
-        $table3 .= "<p class=\"displayReplique\">" . $rep['replique'] . "<br>" . "<audio controls
-                src=public/audio/chewinggum.mp3>" . "</audio>" . "<br>" . $rep['acteur'] . "<img src='" .  $rep['image'] . "'>" . "</p>";
+        $table3 .= "<p class=\"displayReplique\">" . $rep['replique'] . "<br>" . $rep['film_titre'] ." ". $rep['realisateur_nom']." ". $rep['realisateur_prenom']. $rep['film_date'] ."<audio controls
+                src=public/audio/chewinggum.mp3>" . "</audio>" . "<br>" . $rep['acteur_nom']. " " . $rep['acteur_prenom']  . "<img src='" .  $rep['image'] . "'>" . "</p>";
         $table3 .= "</tr>";
-    }
+    
 }
 // faire appel getAllTea qui récupérer tout depuis la table The
 
@@ -88,3 +88,4 @@ if (isset($_GET["categ"]) && isset($_GET["emotion"])) {
 include("views/page/accueil.php");
        
         // include("views/page/replique.php");
+}
