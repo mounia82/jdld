@@ -65,7 +65,7 @@ html{
 }
 
 .apresmenu {
-    height:150px;
+    height:350px;
     background-color:#0B0B0B; 
 }
 /* 
@@ -210,8 +210,8 @@ footer {
     
     background-color:#0B0B0B;
     display:flex;
-    align-items:space-between;
-    justify-content:center;
+    align-items:center;
+    align-content:center;
     height:750px;
     padding-right: -20px;
     flex-direction: column;
@@ -223,7 +223,7 @@ footer {
 
 .aproposTitre {
     padding-top:90px;
-     padding-left:100px;
+     /* padding-left:100px; */
     color:white;
     
 }
@@ -231,9 +231,9 @@ footer {
 .aproposTexte {
   
   padding-top:50px;
-  padding-left:100px;
+  /* padding-left:100px; */
   color:white;
-  width:75%;
+  width:80%;
  letter-spacing: 1px;
  
     
