@@ -17,7 +17,7 @@ include("models/Replique.php");
 
 // créer un objet de type tea
 $replique = new Replique();
-
+// var_dump($replique);
 // $acteurs = $acteur -> getActeurNom($nom,$prenom);
 
 if (isset($_GET["categ"]) && isset($_GET["emotion"])) {
@@ -84,8 +84,9 @@ if (isset($_GET["categ"]) && isset($_GET["emotion"])) {
 
 
 
-
-include("views/page/accueil.php");
-       
-        // include("views/page/replique.php");
 }
+
+
+
+
+include("views/page/accueil.php");   
