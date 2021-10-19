@@ -41,7 +41,7 @@
 
             <div><a href="<?= $_SERVER["PHP_SELF"] ?>?categ=<?= $_GET["categ"] ?>&emotion=peur#replique"><img class="imagepq" src="public/images/images2page/shining.jpg" alt=""></a></div>
 
-            <div><a href="<?= $_SERVER["PHP_SELF"] ?>?categ=<?= $_GET["categ"] ?>&emotion=autre#replique"><img class="imagepq" src="public/images/images2page/shining.jpg" alt=""></a></div>
+            <div><a href="<?= $_SERVER["PHP_SELF"] ?>?categ=<?= $_GET["categ"] ?>&emotion=autre#replique"><img class="imagepq" src="public/images/images2page/alien.jpg" alt=""></a></div>
         </div>
 
    
