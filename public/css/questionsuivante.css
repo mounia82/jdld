@@ -1,11 +1,11 @@
-html {
+/* html {
     margin: 0px;
     padding:0px;
     box-sizing: border-box;
     background-color:#0B0B0B;
 
 
-}
+} */
 
 
 .titre1pq {
@@ -43,7 +43,7 @@ html {
     height:1000px;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
 
 
 }
@@ -62,15 +62,6 @@ html {
 }
 
 
-
- .apq  {
-   text-decoration: none;
-    font-size:12px;
-    color:aliceblue;
-    text-align: right;
-    padding-top: 0;
-    margin-top:0;
-}
 
 
 /* ///////mouse/////// */

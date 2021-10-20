@@ -10,6 +10,12 @@
 <div class="apresmenu">
 
 </div>
+<div class="apresmenu">
+
+</div>
+<div class="apresmenu">
+
+</div>
 <!--                              FLECHE ANIMEE -->
 
 <a href="#apropos" title="Vous voulez savoir comment cela marche? Cliquez-ici !">
@@ -48,18 +54,18 @@ if (isset($_GET["categ"]) && isset($_GET["emotion"])) {
 
     <div class="apropos" id="apropos">
         <div class="titreImageTexte">
-            <div class="aproposTitre" data-aos="zoom-in-down" data-aos-duration="1700"  data-aos-delay="50" >
+            <div class="aproposTitre" data-aos="zoom-in-down" data-aos-duration="1700" data-aos-delay="50">
                 <h2>
                     A propos
                 </h2>
             </div>
 
-            <div class="divApropos" >
+            <div class="divApropos">
 
 
-                <img class="aproposImg" src="public/images/images1page/final/Untitled-1.jpg" alt="" data-aos="fade-right" data-aos-duration="1800" data-aos-easing="ease-in-out"  data-aos-delay="100"  >
+                <img class="aproposImg" src="public/images/images1page/final/Untitled-1.jpg" alt="" data-aos="fade-right" data-aos-duration="1800" data-aos-easing="ease-in-out" data-aos-delay="100">
 
-                <p class="aproposTexte" data-aos="fade-left" data-aos-duration="1800" data-aos-easing="ease-in-out"  data-aos-delay="300">
+                <p class="aproposTexte" data-aos="fade-left" data-aos-duration="1800" data-aos-easing="ease-in-out" data-aos-delay="300">
                     Devenir un as de la répartie? Mais comment ? <br>
                     Alors, c'est très simple. Il suffit de scroller en bas et choisir la catégorie et l'émotion ressentie lors de votre discussion afin qu'une réplique ??? soit générée! Deux répliques s'appliqueront par catégorie et émotion. Vous n'y trouvez pas votre compte ? On a pensé à tout: choisissez autre dans les deux champs et le tour est joué!
                     N'oubliez pas le second degré lorsque la réplique vous est présentée, parce que nous, nous l'avons pas oublié :)
@@ -70,24 +76,33 @@ if (isset($_GET["categ"]) && isset($_GET["emotion"])) {
     </div>
 
 
+    <div class="apresmenu">
+
+    </div>
+    <div class="apresmenu">
+
+    </div>
+    <div class="apresmenu">
+
+    </div>
     <!--                             AFFICHES FILMS -->
 
     <div class="containerpqiman">
         <div class="h1Divpqiman" id="generateur">
             <h3 class="titre1pqiman" data-aos="zoom-in-down" data-aos-duration="2000">A qui s'adresse la réplique? </h3>
-            <!-- <a class="apq" href="?section=questionsuivante">question suivante </a> -->
+
 
             <div class="imageDivpqiman">
 
-                <div><a href="?section=questionsuivante&categ=amis"><img class="imagepqiman" src="public/images/images1page/final/hangover2.jpg" alt="" data-aos="zoom-in-right" data-aos-duration="1800"  data-aos-delay="50"></a></div>
+                <div><a href="?section=questionsuivante&categ=amis"><img class="imagepqiman" src="public/images/images1page/final/hangover2.jpg" alt="" data-aos="zoom-in-" data-aos-duration="1800" data-aos-delay="50"></a></div>
 
-                <div><a href="?section=questionsuivante&categ=couple"><img class="imagepqiman" src="public/images/images1page/final/Untitled-1.jpg" alt="" data-aos="zoom-in-right" data-aos-duration="1900"  data-aos-delay="150"></a></div>
+                <div><a href="?section=questionsuivante&categ=couple"><img class="imagepqiman" src="public/images/images1page/final/Untitled-1.jpg" alt="" data-aos="zoom-in" data-aos-duration="1900" data-aos-delay="300"></a></div>
 
-                <div><a href="?section=questionsuivante&categ=famille"><img class="imagepqiman" src="public/images/images1page/final/tuche22.jpg" alt="" data-aos="zoom-in-down" data-aos-duration="2000"  data-aos-delay="250"></a></div>
+                <div><a href="?section=questionsuivante&categ=famille"><img class="imagepqiman" src="public/images/images1page/final/tuche22.jpg" alt="" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="550"></a></div>
 
-                <div><a href="?section=questionsuivante&categ=boss"><img class="imagepqiman" src="public/images/images1page/final/work.jpg" alt="" data-aos="zoom-in-left" data-aos-duration="2100"  data-aos-delay="200"></a></div>
+                <div><a href="?section=questionsuivante&categ=boss"><img class="imagepqiman" src="public/images/images1page/final/work.jpg" alt="" data-aos="zoom-in" data-aos-duration="2100" data-aos-delay="800"></a></div>
 
-                <div><a href="?section=questionsuivante&categ=autre"><img class="imagepqiman" src="public/images/images1page/final/autres.jpg" alt="" data-aos="zoom-in-left" data-aos-duration="2200"  data-aos-delay="100"></a></div>
+                <div><a href="?section=questionsuivante&categ=autre"><img class="imagepqiman" src="public/images/images1page/final/autres.jpg" alt="" data-aos="zoom-in" data-aos-duration="2200" data-aos-delay="1050"></a></div>
             </div>
 
         </div>
