@@ -7,6 +7,8 @@
     private $pass    = '';       // mot de passe (il faudra peut-être mettre '' sous Windows)
     //private $pass    = '';          // Ne rien mettre si on est sous windows
     private $connexion;
+  
+    
     function __construct(){
       try{
         $this->connexion = new PDO('mysql:host=' . $this->host . ';dbname=' . $this->name,
@@ -18,8 +20,15 @@
         die();
       }
     }
+    
+
+
+
+    
     //L'utilité de la fonction query va vous permettre de gagner un gain de vitesse lorsque vous allez écrire une requête SQLafin d'interroger votre serveur.
+    
     //La fonction query est à utiliser de préférence avec la requête SELECT.
+    
     public function query($sql, $data = array()){
       $req = $this->connexion->prepare($sql);
       $req->execute($data);
@@ -37,12 +46,19 @@
     // $req = $DB->query("SELECT * FROM nom_table WHERE id = :id",
     // array('id' => 1));
     // $req = $req->fetch();
+    
+    
+    
+    
+    
     //La fonction insert est à utiliser de préférence avec les requêtes INSERT, UPDATE et DELETE.
+    
     public function insert($sql, $data = array()){
       $req = $this->connexion->prepare($sql);
       $req->execute($data);
     }
     //Ci-dessous je vous montre comment utiliser cette fonction de plusieurs façon.
+    
     //   <?php// Première méthode avec INSERT
     // $DB->insert("INSERT INTO utilisateur (prenom, nom, age) VALUES (?, ?, ?)",
     //array("jean", "dupont", 20));
@@ -53,7 +69,26 @@
     //   $DB->query("DELETE FROM utilisateur WHERE id = ?",
     //     array(1));
     // 
+    
+    // permet d'exécuter facilement une query
+    protected function execute($query, $params= array(), $fetchMode = null)
+    {
+        // prépare la requete éviter injection SQL
+    	$stmt = self::$_connection->prepare($query);
+        // exucute la requte
+    	$stmt->execute($params);
+
+    	if ($fetchMode !== null) {
+            // retourne toutes les données sous forme de tableau
+    		return $stmt->fetchAll($fetchMode);
+    	} else {
+    		return $stmt->fetchAll();
+    	}
+    	return $stmt; // Iterator (forearch)
+    }
     // Faire une connexion à votre fonction
   }
   // $DB = new ConnexionDB();
+
+  
 ?>
