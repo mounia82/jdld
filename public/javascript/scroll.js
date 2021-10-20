@@ -1,1 +1,1 @@
-const sr= scrollReveal();
+
