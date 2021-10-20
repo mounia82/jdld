@@ -1,5 +1,15 @@
 
+<?php
 
+
+//                         CODE POUR AFFICHER LA REPLIQUE
+
+if (isset($_GET["categ"]) && isset($_GET["emotion"])) {
+    echo " $table3 ";
+}
+
+
+?>
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 <div class="carousel-inner">
     <div class="carousel-item active">

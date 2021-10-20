@@ -37,7 +37,7 @@ abstract class Connection {
         // xampp : '' // pas de mdp /!\ production
         // mamp : 'root'
         // production : lorsque vous mettrez en ligne votre site vous recevrez de votre fournisseur les données 2, 5, 6
-        self::$_connection = new PDO("mysql:host=localhost;dbname=monsite;charset=utf8", 'root', '');
+        self::$_connection = new PDO("mysql:host=localhost;dbname=projo;charset=utf8", 'root', '');
         // ::Default : mode par défaut de récupération de données
         // :: données sous forme tableau associatif
         self::$_connection->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
@@ -62,35 +62,6 @@ abstract class Connection {
     		return $stmt->fetchAll();
     	}
     	return $stmt; // Iterator (forearch)
-    }
-
-    // permet d'exécuter facilement une query INSERT UPDATE DELETE
-    protected function query($query, $params= array())
-    {
-        // prépare la requete éviter injection SQL
-    	$stmt = self::$_connection->prepare($query);
-        // exucute la requte
-    	$stmt->execute($params);
-
-    }
-
-    // permet d'exécuter facilement une query INSERT 
-    // retourne id de l'élément créé
-    protected function add($query, $params= array())
-    {
-        try{
-            // prépare la requete éviter injection SQL
-            $stmt = self::$_connection->prepare($query);
-            // exucute la requte
-            $stmt->execute($params);
-
-            return self::$_connection->lastInsertId();
-        }
-        catch(PDOException $e){
-            die;
-        }
-        
-
     }
 }
 

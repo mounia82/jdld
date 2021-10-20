@@ -22,12 +22,12 @@ $replique = new Replique();
 
 if (isset($_GET["categ"]) && isset($_GET["emotion"])) {
     $repliques = $replique->getRepliqueByCategAndEmot($_GET["categ"], $_GET["emotion"]);
-    // var_dump($repliques);
+//     var_dump($repliques);
   
     /* ?><pre><?= print_r($repliques); ?></pre><?php */
     $table3 = "";
   
-    foreach ($repliques as $rep) {
+    foreach($repliques as $rep) {
         
 
         // var_dump($rep);
