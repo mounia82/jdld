@@ -29,12 +29,11 @@
 .containerpqiman {
     
     background-color:#0B0B0B ;
-    height:900px;
+    height:1500px;
     display:flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    
     
     
 

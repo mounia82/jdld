@@ -5,7 +5,7 @@ html{
     margin: 0px;
     padding:0px;
     box-sizing: border-box;
-    
+    height:3000px;
     /* background-color:#0B0B0B; */
     
 }
@@ -210,32 +210,47 @@ footer {
     
     background-color:#0B0B0B;
     display:flex;
-    align-items:center;
-    align-content:center;
+    /* align-items:center; */
+    /* justify-content:space-between; */
     height:750px;
     padding-right: -20px;
-    flex-direction: column;
+    flex-direction: row;
     padding-left:100px;
    
-    
-   
-  
+
 }
 
+.titreImageTexte {
+    display:flex;
+    flex-direction: column;
+    align-content:center;
+}
 .aproposTitre {
+    
+    display:flex;
+    justify-content:center;
     padding-top:90px;
+    padding-bottom:90px;
      /* padding-left:100px; */
     color:white;
     
 }
 
+.divApropos {
+display:flex;
+justify-content:space-evenly;
+}
+.aproposImg {
+    width:35%;
+}
 .aproposTexte {
   
   padding-top:50px;
   /* padding-left:100px; */
   color:white;
-  width:60%;
+  /* width:60%; */
  letter-spacing: 1px;
+ width:35%;
  
     
 }
