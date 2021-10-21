@@ -7,9 +7,7 @@
 
 </div>
 
-<div class="apresmenu">
 
-</div>
 <div class="apresmenu">
 
 </div>
@@ -18,7 +16,7 @@
 </div>
 <!--                              FLECHE ANIMEE -->
 
-<a href="#apropos" title="Vous voulez savoir comment cela marche? Cliquez-ici !">
+<a href="#apropos" title="Cliquez-ici !">
     <span class="arrow">
         <span></span>
         <span></span>
@@ -75,6 +73,18 @@ if (isset($_GET["categ"]) && isset($_GET["emotion"])) {
         </div>
     </div>
 
+    <div class="apresmenu">
+
+</div>
+    <div class="divArrow">
+        <a href="#generateur" title=" Cliquez-ici !">
+            <span class="arrow2">
+                <span></span>
+                <span></span>
+                <span></span>
+            </span>
+        </a>
+    </div>
 
     <div class="apresmenu">
 
@@ -82,9 +92,8 @@ if (isset($_GET["categ"]) && isset($_GET["emotion"])) {
     <div class="apresmenu">
 
     </div>
-    <div class="apresmenu">
 
-    </div>
+
     <!--                             AFFICHES FILMS -->
 
     <div class="containerpqiman">
