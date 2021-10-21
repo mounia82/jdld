@@ -27,7 +27,7 @@
                             
                             <div class="Account">
                             
-                            <span>Vous n'avez pas de compte ? <a href="?</section=creer">S'INSCRIRE'</a></span>
+                            <span>Vous n'avez pas de compte ? <a href="?</section=creer">S'INSCRIRE</a></span>
                     </form>
                 </div>
             </div>
