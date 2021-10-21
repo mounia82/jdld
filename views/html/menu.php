@@ -10,10 +10,10 @@
 
      <a href="?section=connexion">CONNEXION</a>
    
-     <a href="?section=deconnexion" class="nav-link" id="deconnexion">Bienvenue <?= $_SESSION["nom"]; ?> Déconnexion</a>
+     <a href="?section=deconnexion" class="nav-link" id="deconnexion">Bienvenue Déconnexion</a>
      
-     <a href="?section=inscription" class="nav-link" id="inscription">Inscription</a> -->
-     
+     <a href="?section=inscription" class="nav-link" id="inscription">Inscription</a>
+      -->
       
 
  

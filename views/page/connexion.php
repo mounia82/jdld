@@ -23,11 +23,11 @@
                                 }
                             ?>
                             <input type="password" placeholder="Mot de passe" name="mdp" value="<?php if(isset($mdp)){ echo $mdp; }?>" required>
-                            <button type="submit" name="connexion">Se connecter</button>
+                            <button type="submit" name="connexion">SE CONNECTER</button>
                             
                             <div class="Account">
                             
-                            <span>Vous n'avez pas de compte ? <a href="?</section=creer">S'inscrire</a></span>
+                            <span>Vous n'avez pas de compte ? <a href="?</section=creer">S'INSCRIRE'</a></span>
                     </form>
                 </div>
             </div>

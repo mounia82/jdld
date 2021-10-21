@@ -1,4 +1,4 @@
- 
+<!--  
 <nav class="navbar navbar-expand-lg navbar-dark">
   <div class="container-fluid">
     <a class="navbar-brand" href="/index">J'aurais du lui dire</a>
@@ -20,9 +20,26 @@
       <ul class="navbar-nav d-flex">
         <li class="nav-item">
             
-            <a href="?section=deconnexion" class="nav-link" id="deconnexion">Bienvenue <?= $_SESSION["nom"]; ?> Déconnexion</a>
+            <a href="?section=deconnexion" class="nav-link" id="deconnexion">Bienvenue  Déconnexion</a>
         </li>
       </ul>
     </div>
   </div>
-</nav>
+</nav> -->
+
+
+<div class="menu">
+     
+<a href="?section=accueil" id="register"><img class="logo" src="public/images/logo.png" alt="logo"></a>
+
+     <a href="#apropos" id="apropos">A PROPOS</a>
+
+     <a href="#generateur">GENERATEUR</a>
+
+     <a href="?section=contact">CONTACT</a>
+
+     <!-- <a href="?section=connexion">CONNEXION</a> -->
+   
+     <a href="?section=deconnexion"  id="deconnexion">Bienvenue <?= $_SESSION["nom"]; ?> DECONNEXION</a>
+     
+     <!-- <a href="?section=inscription"  id="inscription">INSCRIPTION</a> -->
