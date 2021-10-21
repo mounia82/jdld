@@ -1,11 +1,17 @@
 
 /* /////////////////////accueil de Mimi///////////////////// */
-
+@font-face {
+    font-family: 'work';
+    src: url(../fonts/WorkSans-Light.ttf);
+}
 html{
     margin: 0px;
     padding:0px;
     box-sizing: border-box;
     height:3000px;
+    font-family: 'work';
+    
+
     /* background-color:#0B0B0B; */
     
 }
@@ -34,7 +40,7 @@ html{
     text-decoration: none;
     margin-top: 148px;
 
-    font-family: 'neutral_faceregular';
+    font-family: 'work';
     line-height: 116px;
    
 
@@ -91,6 +97,7 @@ html{
     font-style: normal;
 
 }
+/*
 @font-face {
     font-family: 'neutral_faceregular';
     src: url('../../public/fonts/neutralface-webfont.woff2') format('woff2'),
@@ -99,6 +106,7 @@ html{
     font-style: normal;
 
 }
+*/
 /* 
 ?                           FOOTER
 */

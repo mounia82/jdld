@@ -67,7 +67,7 @@
                 echo "<h1>Enregistrement</h1>";
                 // print_r($nom);
                 $id = $userDB->insert($nom, $mail, $mdp);
-                if(id != null){
+                if($id != null){
                     header('Location:?section=connexion');
                 }
         

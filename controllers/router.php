@@ -12,12 +12,12 @@ if (isset($_GET["section"])) {
             case 'contact':
                 include("controllers/contactController.php");
                 break;
-            case 'connexion':
-                include("controllers/connexionController.php");
-                break;
-            case 'inscription':
-                include("controllers/inscriptionController.php");
-                break;
+            // case 'connexion':
+            //     include("controllers/connexionController.php");
+            //     break;
+            // case 'inscription':
+            //     include("controllers/inscriptionController.php");
+            //     break;
             case 'questionsuivante':
                 include("controllers/questionsuivanteController.php");
                 break;

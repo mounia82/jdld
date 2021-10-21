@@ -1,9 +1,9 @@
 <?php 
-    include('Connection.php');
+    include('Connection2.php');
     // permet de hasher un mdp pour l'ajouter dans la db
     // echo password_hash('azerty', PASSWORD_DEFAULT);
 
-    class User extends Connection {
+    class User extends Connection2 {
         // ============ CONNEXION =========
         // retourne l'utilisateur si il existe
         public function verify($mail, $mdp) {
