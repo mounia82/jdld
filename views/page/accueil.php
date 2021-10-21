@@ -42,9 +42,9 @@ if (isset($_GET["categ"]) && isset($_GET["emotion"])) {
     <!--                                ICONES                  -->
 
     <div class="sidebaricons">
-        <a href="https://www.facebook.com/"> <i class="bi bi-facebook" style="color: rgb(253, 253, 252); padding:10px;"></i></a>&nbsp;
-        <a href="https://www.instagram.com/"> <i class="bi bi-instagram" style="color: rgb(253, 253, 252); padding:10px;"></i></a>&nbsp;
-        <a href="https://www.linkedin.com/"> <i class="bi bi-linkedin" style="color: rgb(253, 253, 252);padding:10px; "></i></a>
+        <a href="https://www.facebook.com/"> <i class="bi bi-facebook"  alt="facebook" style="color: rgb(253, 253, 252); padding:10px;"></i></a>&nbsp;
+        <a href="https://www.instagram.com/"> <i class="bi bi-instagram" alt="instagram" style="color: rgb(253, 253, 252); padding:10px;"></i></a>&nbsp;
+        <a href="https://www.linkedin.com/"> <i class="bi bi-linkedin"  alt="linkedin" style="color: rgb(253, 253, 252);padding:10px; "></i></a>
     </div>
 
     <!--                        PARTIE A PROPOS                 -->
@@ -75,7 +75,7 @@ if (isset($_GET["categ"]) && isset($_GET["emotion"])) {
 
     <div class="apresmenu">
 
-</div>
+    </div>
     <div class="divArrow">
         <a href="#generateur" title=" Cliquez-ici !">
             <span class="arrow2">
@@ -99,26 +99,26 @@ if (isset($_GET["categ"]) && isset($_GET["emotion"])) {
     <div class="containerpqiman">
         <div class="h1Divpqiman" id="generateur">
             <h3 class="titre1pqiman" data-aos="zoom-in-down" data-aos-duration="2000">A qui s'adresse la réplique? </h3>
+        </div>
 
+        <div class="imageDivpqiman">
 
-            <div class="imageDivpqiman">
+            <div><a href="?section=questionsuivante&categ=amis"><img class="imagepqiman" src="public/images/images1page/final/hangover2.jpg" alt="" data-aos="zoom-in-" data-aos-duration="1800" data-aos-delay="50"></a></div>
 
-                <div><a href="?section=questionsuivante&categ=amis"><img class="imagepqiman" src="public/images/images1page/final/hangover2.jpg" alt="" data-aos="zoom-in-" data-aos-duration="1800" data-aos-delay="50"></a></div>
+            <div><a href="?section=questionsuivante&categ=couple"><img class="imagepqiman" src="public/images/images1page/final/Untitled-1.jpg" alt="" data-aos="zoom-in" data-aos-duration="1900" data-aos-delay="300"></a></div>
 
-                <div><a href="?section=questionsuivante&categ=couple"><img class="imagepqiman" src="public/images/images1page/final/Untitled-1.jpg" alt="" data-aos="zoom-in" data-aos-duration="1900" data-aos-delay="300"></a></div>
+            <div><a href="?section=questionsuivante&categ=famille"><img class="imagepqiman" src="public/images/images1page/final/tuche22.jpg" alt="" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="550"></a></div>
 
-                <div><a href="?section=questionsuivante&categ=famille"><img class="imagepqiman" src="public/images/images1page/final/tuche22.jpg" alt="" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="550"></a></div>
+            <div><a href="?section=questionsuivante&categ=boss"><img class="imagepqiman" src="public/images/images1page/final/work.jpg" alt="" data-aos="zoom-in" data-aos-duration="2100" data-aos-delay="800"></a></div>
 
-                <div><a href="?section=questionsuivante&categ=boss"><img class="imagepqiman" src="public/images/images1page/final/work.jpg" alt="" data-aos="zoom-in" data-aos-duration="2100" data-aos-delay="800"></a></div>
-
-                <div><a href="?section=questionsuivante&categ=autre"><img class="imagepqiman" src="public/images/images1page/final/autres.jpg" alt="" data-aos="zoom-in" data-aos-duration="2200" data-aos-delay="1050"></a></div>
-            </div>
-
+            <div><a href="?section=questionsuivante&categ=autre"><img class="imagepqiman" src="public/images/images1page/final/autres.jpg" alt="" data-aos="zoom-in" data-aos-duration="2200" data-aos-delay="1050"></a></div>
         </div>
 
     </div>
-    <!-- //////////////////////////////:test//////////////////////// -->
-    <!-- <h2>Hey</h2>
+
+</div>
+<!-- //////////////////////////////:test//////////////////////// -->
+<!-- <h2>Hey</h2>
     <table>
         <tr>
             <th>Id</th>
@@ -131,20 +131,20 @@ if (isset($_GET["categ"]) && isset($_GET["emotion"])) {
 
 
 
-    <!--  ICONS -->
+<!--  ICONS -->
 
 
 
 
 
-    <!--                              SOURIS LUMIERE -->
+<!--                              SOURIS LUMIERE -->
 
 
-    <div class="light">
-    </div>
+<div class="light">
+</div>
 
 
-    <!-- <script type="text/javascript">
+<!-- <script type="text/javascript">
         var pos = document.documentElement;
         pos.addEventListener('mousemove', e => {
             pos.style.setProperty('--x', e.clientX + 'px')
@@ -155,7 +155,9 @@ if (isset($_GET["categ"]) && isset($_GET["emotion"])) {
 
 
 
+    <div class="apresmenu">
 
+</div>
 
 
 

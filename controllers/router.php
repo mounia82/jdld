@@ -27,6 +27,10 @@ if (isset($_GET["section"])) {
             case 'deconnexion':
                 include("controllers/deconnexionController.php");
                 break;
+            case 'commentaire':
+                include("controllers/commentaireController.php");
+                break;
+
             default:
                 include("views/error/404.php");
         }
