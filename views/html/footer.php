@@ -3,9 +3,9 @@
 
 <footer>
     <div class="icons">
-        <a href="https://www.facebook.com/"> <i class="bi bi-facebook" style="color: rgb(253, 253, 252); padding:10px;"></i></a>&nbsp;
-        <a href="https://www.instagram.com/"> <i class="bi bi-instagram" style="color: rgb(253, 253, 252); padding:10px;"></i></a>&nbsp;
-        <a href="https://www.linkedin.com/"> <i class="bi bi-linkedin" style="color: rgb(253, 253, 252);padding:10px; "></i></a>
+        <a href="https://www.facebook.com/"> <i class="bi bi-facebook" alt="facebook" style="color: rgb(253, 253, 252); padding:10px;"></i></a>&nbsp;
+        <a href="https://www.instagram.com/"> <i class="bi bi-instagram"  alt="instagram" style="color: rgb(253, 253, 252); padding:10px;"></i></a>&nbsp;
+        <a href="https://www.linkedin.com/"> <i class="bi bi-linkedin"  alt="linkedin" style="color: rgb(253, 253, 252);padding:10px; "></i></a>
         <i class="fas fa-chevron-circle-up" style="color: rgb(253, 253, 252);"></i>
     </div>
 
