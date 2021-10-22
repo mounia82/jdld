@@ -36,7 +36,7 @@
      
 <a href="?section=accueil" id="register"><img class="logo" src="public/images/logo.png" alt="logo"></a>
 
-     <a href="#apropos" id="apropos">A PROPOS</a>
+     <a href="#apropos" >A PROPOS</a>
 
      <a href="#generateur">GENERATEUR</a>
 

@@ -89,9 +89,7 @@ if (isset($_GET["categ"]) && isset($_GET["emotion"])) {
     <div class="apresmenu">
 
     </div>
-    <div class="apresmenu">
-
-    </div>
+   
 
 
     <!--                             AFFICHES FILMS -->
@@ -103,7 +101,7 @@ if (isset($_GET["categ"]) && isset($_GET["emotion"])) {
 
         <div class="imageDivpqiman">
 
-            <div><a href="?section=questionsuivante&categ=amis"><img class="imagepqiman" src="public/images/images1page/final/hangover2.jpg" alt="" data-aos="zoom-in-" data-aos-duration="1800" data-aos-delay="50"></a></div>
+            <div><a href="?section=questionsuivante&categ=amis"><img class="imagepqiman" src="public/images/images1page/final/hangover2.jpg" alt="" data-aos="zoom-in" data-aos-duration="1800" data-aos-delay="50"></a></div>
 
             <div><a href="?section=questionsuivante&categ=couple"><img class="imagepqiman" src="public/images/images1page/final/Untitled-1.jpg" alt="" data-aos="zoom-in" data-aos-duration="1900" data-aos-delay="300"></a></div>
 
@@ -117,21 +115,6 @@ if (isset($_GET["categ"]) && isset($_GET["emotion"])) {
     </div>
 
 </div>
-<!-- //////////////////////////////:test//////////////////////// -->
-<!-- <h2>Hey</h2>
-    <table>
-        <tr>
-            <th>Id</th>
-            <th>Nom</th>
-            <th>Modifier</th>
-            <th>Supprimer</th>
-        </tr>
-      
-    </table> -->
-
-
-
-<!--  ICONS -->
 
 
 

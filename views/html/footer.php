@@ -9,7 +9,7 @@
         <i class="fas fa-chevron-circle-up" style="color: rgb(253, 253, 252);"></i>
     </div>
 
-    <p class="copy"> &copy;Copyright 2021</p>
+    <p class="copy"> &copy; 2021 JDLD</p>
 </footer>
 
 <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

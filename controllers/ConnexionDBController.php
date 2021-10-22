@@ -1,9 +1,9 @@
  <?php  
     // vider les variables de session
-    unset($_SESSION["nom"]);
+  //  unset($_SESSION["nom"]);
     // détruire la session
-    session_destroy();
+  //  session_destroy();
     // revenir sur la page de connexion
-    header("Location:index.php?section=connexion");
+   // header("Location:index.php?section=connexion");
 ?> 
 

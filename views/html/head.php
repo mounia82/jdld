@@ -19,9 +19,10 @@
     <link rel="stylesheet" href="public/css/formulaireconnexion.css">
     <link rel="stylesheet" href="public/css/pageRep.css" />
     <link rel="stylesheet" href="public/css/premierequestion.css">
-    <link rel="stylesheet" href="public/css/style.css">
+   
     <link rel="stylesheet" href="public/css/questionsuivante.css">
-    <style>
+    <link rel="stylesheet" href="public/css/style.css">
+    <!-- <style>
         .displayReplique {
             height: 600px;
             background-color: black;
@@ -30,7 +31,7 @@
             /* display:flex; */
             text-align: center;
         }
-    </style>
+    </style> -->
     <title>projet-jdld</title>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@444&display=swap" rel="stylesheet">

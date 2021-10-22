@@ -11,8 +11,7 @@
 
 
 // inclus la classe Tea
-include("models/Lol.php");
-include("models/Emotions.php");
+
 include("models/Replique.php");
 
 // créer un objet de type tea

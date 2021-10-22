@@ -71,24 +71,24 @@
     // 
     
     // permet d'exécuter facilement une query
-    protected function execute($query, $params= array(), $fetchMode = null)
-    {
+    //protected function execute($query, $params= array(), $fetchMode = null)
+    //{
         // prépare la requete éviter injection SQL
-    	$stmt = self::$_connection->prepare($query);
+    //	$stmt = self::$_connection->prepare($query);
         // exucute la requte
-    	$stmt->execute($params);
+    //	$stmt->execute($params);
 
-    	if ($fetchMode !== null) {
+    //	if ($fetchMode !== null) {
             // retourne toutes les données sous forme de tableau
-    		return $stmt->fetchAll($fetchMode);
-    	} else {
-    		return $stmt->fetchAll();
-    	}
-    	return $stmt; // Iterator (forearch)
-    }
+    //		return $stmt->fetchAll($fetchMode);
+    //	} else {
+    //		return $stmt->fetchAll();
+    //	}
+   // 	return $stmt; // Iterator (forearch)
+   // }
     // Faire une connexion à votre fonction
-  }
+ // }
   // $DB = new ConnexionDB();
 
   
-?>
+ ?> 
