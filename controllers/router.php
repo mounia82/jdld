@@ -31,6 +31,9 @@ if (isset($_GET["section"])) {
     } else {
         // il n'est pas connecté
         switch ($_GET["section"]) {
+            case 'commentaire':
+                include("controllers/commentaireController.php");
+                break;
             case 'accueil':
                 include("controllers/accueilController.php");
                 break;

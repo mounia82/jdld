@@ -127,14 +127,14 @@ if (isset($_GET["categ"]) && isset($_GET["emotion"])) {
 </div>
 
 
-<!-- <script type="text/javascript">
+<script type="text/javascript">
         var pos = document.documentElement;
         pos.addEventListener('mousemove', e => {
             pos.style.setProperty('--x', e.clientX + 'px')
             pos.style.setProperty('--y', e.clientY + 'px')
 
         })
-    </script> -->
+    </script> 
 
 
 
@@ -155,3 +155,13 @@ if (isset($_GET["categ"]) && isset($_GET["emotion"])) {
 
 
 </div>
+<footer class="footer">
+    <div class="icons">
+        <a href="https://www.facebook.com/"> <i class="bi bi-facebook" alt="facebook" style="color: rgb(253, 253, 252); padding:10px;"></i></a>&nbsp;
+        <a href="https://www.instagram.com/"> <i class="bi bi-instagram"  alt="instagram" style="color: rgb(253, 253, 252); padding:10px;"></i></a>&nbsp;
+        <a href="https://www.linkedin.com/"> <i class="bi bi-linkedin"  alt="linkedin" style="color: rgb(253, 253, 252);padding:10px; "></i></a>
+        <i class="fas fa-chevron-circle-up" style="color: rgb(253, 253, 252);"></i>
+    </div>
+
+    <p class="copy"> &copy; 2021 JDLD</p>
+</footer>

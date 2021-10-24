@@ -1,7 +1,7 @@
 
 
 
-<footer>
+<!-- <footer class="footer2">
     <div class="icons">
         <a href="https://www.facebook.com/"> <i class="bi bi-facebook" alt="facebook" style="color: rgb(253, 253, 252); padding:10px;"></i></a>&nbsp;
         <a href="https://www.instagram.com/"> <i class="bi bi-instagram"  alt="instagram" style="color: rgb(253, 253, 252); padding:10px;"></i></a>&nbsp;
@@ -10,7 +10,7 @@
     </div>
 
     <p class="copy"> &copy; 2021 JDLD</p>
-</footer>
+</footer> -->
 
 <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="/js/bootstrap.js"></script>

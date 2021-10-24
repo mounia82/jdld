@@ -16,14 +16,16 @@ body{
 .box{
     width: 400px;
     padding: 10px;
-    position: absolute;
+    /* position: absolute; */
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    /* transform: translate(-50%,-50%); */
     background: #202020;
     text-align: center;
     border-radius: 40px;
     border: 0.10px solid #84888a;
+    display:flex;
+    justify-content: center;
 
 }
 
@@ -152,7 +154,7 @@ html{
     background-color:rgb(12, 12, 12);
 }
 .menu{
-    background: url(imageBg.png);
+    /* background: url(imageBg.png); */
     
     color: black;
     text-align: right;
