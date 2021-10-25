@@ -1,7 +1,7 @@
 <!--                           TITRES ACCUEIL -->
 
-
-<h1 class="h1mimi" data-aos="fade-right" data-aos-duration="2500"> J'AURAIS DU LUI DIRE . . .</h1>
+<span id="hautDePage"></span>
+<h1 class="h1mimi" data-aos="fade-right" data-aos-duration="2500" > J'AURAIS DU LUI DIRE . . .</h1>
 
 <h2 class="h2mimi" data-aos="fade-left" data-aos-duration="2700">"ETRE UN AS DE LA REPARTIE, N'A JAMAIS ETE AUSSI SIMPLE "</h2>
 
@@ -96,7 +96,7 @@ if (isset($_GET["categ"]) && isset($_GET["emotion"])) {
 
     <div class="containerpqiman">
         <div class="h1Divpqiman" id="generateur">
-            <h3 class="titre1pqiman" data-aos="zoom-in-down" data-aos-duration="2000">A qui s'adresse la réplique? </h3>
+            <h3 class="titre1pqiman" data-aos="zoom-in-down" data-aos-duration="2000">A qui s'adresse la réplique ? </h3>
         </div>
 
         <div class="imageDivpqiman">
@@ -160,7 +160,7 @@ if (isset($_GET["categ"]) && isset($_GET["emotion"])) {
         <a href="https://www.facebook.com/"> <i class="bi bi-facebook" alt="facebook" style="color: rgb(253, 253, 252); padding:10px;"></i></a>&nbsp;
         <a href="https://www.instagram.com/"> <i class="bi bi-instagram"  alt="instagram" style="color: rgb(253, 253, 252); padding:10px;"></i></a>&nbsp;
         <a href="https://www.linkedin.com/"> <i class="bi bi-linkedin"  alt="linkedin" style="color: rgb(253, 253, 252);padding:10px; "></i></a>
-        <i class="fas fa-chevron-circle-up" style="color: rgb(253, 253, 252);"></i>
+       <a href="#hautDePage"> <i class="bi bi-chevron-bar-up" style="color: rgb(253, 253, 252);padding:10px; "></i></a> 
     </div>
 
     <p class="copy"> &copy; 2021 JDLD</p>

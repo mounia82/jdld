@@ -40,7 +40,7 @@
 
      <a href="#generateur">GENERATEUR</a>
 
-     <a href="?section=contact">CONTACT</a>
+     <!-- <a href="?section=contact">CONTACT</a> -->
 
      <a href="?section=connexion" id="connexion">CONNEXION</a>
    

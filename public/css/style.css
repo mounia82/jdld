@@ -2,7 +2,7 @@
 /* /////////////////////accueil de Mimi///////////////////// */
 @font-face {
     font-family: 'work';
-    src: url(../fonts/WorkSans-Light.ttf);
+    src: url(../fonts/WorkSans-Medium.ttf);
 }
 html{
     margin: 0px;
@@ -33,7 +33,7 @@ html{
 }
 .menu a{
     margin-left: 12px;
-    font-size: 15px;
+    font-size: 17px;
     text-align: justify;
     margin-right: 70px;
     color: rgb(240, 233, 233);
@@ -60,12 +60,12 @@ html{
     /* background-color: none; */
  }  
  .h2mimi {
-    font-size:15px;
+    font-size:20px;
     color:rgb(240, 233, 233);
     float:right;
     padding-right:105px;
     padding-top:30px;
-    font-family: 'neutral_faceregular';
+    font-family: 'work';
     /* background-color: none; */
     
 }
@@ -142,9 +142,14 @@ html{
     font-size:25px;
     text-align: center;
     color:white;
-    font-size:25px;
     padding:10px;
     
+}
+.bi-chevron-bar-up {
+    padding-top:15px;
+    font-size:40px;
+    float:right;
+    /* padding:10px; */
 }
 /* 
 ?                            1ere    FLECHE ANIMEE

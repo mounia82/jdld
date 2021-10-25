@@ -6,7 +6,7 @@
     text-align: center;
     font-size: 35px;
     color: rgb(245, 238, 238);
-    font-family: 'Spartan', sans-serif;
+    font-family: 'work';
     /* height:100px; */
     
 }
@@ -15,8 +15,8 @@
 
 .imagepqiman {
     padding: 20px;
-    width:260px;
-    height:350px;
+    width:240px;
+    height:340px;
     opacity: 0.5;
    
     
@@ -37,7 +37,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'work';
 
 }
 .imageDivpqiman {
