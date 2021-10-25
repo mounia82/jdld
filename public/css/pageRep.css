@@ -1,116 +1,201 @@
 @font-face {
     font-family: "sign";
     src: url(../fonts/SignPainter\ HouseScript\ Regular.ttf);
-}
-@font-face {
+  }
+  @font-face {
     font-family: "work";
     src: url(../fonts/WorkSans-Bold.ttf);
-}
-@font-face {
+  }
+  @font-face {
     font-family: "workLg";
     src: url(../fonts/WorkSans-Light.ttf);
-}
-
-
-
-/* html{
-    width: 100%;
-    height: auto;
-    box-sizing:border-box;
-} */
-
-#container
-{
+  }
+  
+  /* html{
+      width: 100%;
+      height: auto;
+      box-sizing:border-box;
+  } */
+  
+  #carouselExampleControls {
     display: flex;
     justify-content: center;
-    padding-top: 80px;
-    background-color:#0C0B0B;
-   
-}
-
-#wrapper,.col,.row {
-    background-color:#0C0B0B;
-}
-#quotesab{
+    align-items: center;
+    padding-top: 0;
+  
+    width: 100%;
+    height: 900px;
+    background-color: #0c0b0b;
+  
+    /* border: 2px solid rgb(224, 64, 139); */
+  }
+  .carousel-item {
+    /* border: 2px solid red; */
+    height: 800px;
+  }
+  
+  .h2quote {
     color: white;
-    font-size: 5rem;
     text-align: center;
-    /*border: turquoise 1px solid;*/
-}
-#hastasab{
+    /* border: 3px blue solid; */
+    margin: 15px;
+    padding: 0;
+    font-size: 3.5rem;
+  }
+  
+  #hastasab {
     color: white;
-    font-size: 8rem;
+    text-align: center;
+    /* border: 3px blue solid; */
+  
     font-family: "Sign";
-    text-align: center;
-    /*border: turquoise 1px solid;*/
-}
-
-#arnoldsab{
+    font-size: 4rem;
+    box-sizing: content-box;
+  }
+  #audioHastasab figcaption {
+    display: flex;
+    padding-left: 160px;
+    margin: 5px;
+  }
+  
+  figcaption {
+    justify-content: flex-end;
     color: white;
-    font-size: 1rem;
-    text-align: left;
-    /*border: turquoise 1px solid;*/
-    padding: 0;
     font-family: "workLg";
-}
-
-#audioHastasab{
-    /*border: 1px solid turquoise;*/
-    padding-left: 130px;
-    margin: 0;
-}
-
-#videsab{
-    /*border: 1px solid turquoise;*/
+    font-size: 0.9rem;
+    /* border: 2px solid rgb(243, 220, 14); */
+    font-style: italic;
+  }
+  
+  #titreFilm {
+    /* border: 2px solid rgb(128, 10, 245); */
     color: white;
+    justify-content: center;
+    font-family: "workLg";
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+  .realisateur {
+    /* border: 2px solid rgb(226, 14, 14); */
+    color: white;
+    text-align: start;
+    font-family: "workLg";
+    margin-top: 50px;
+  }
+  
+  .bandeFilm1 {
+    display: flex;
+    /* border: 2px solid rgb(6, 245, 86); */
+    color: white;
+    justify-content: center;
+  }
+  .coeursab, .bullesab{
+    display: flex;
     
-}
-
-/* ### Wapper Partie Real | Titre Film | Bulle Com | Like | ####*/ 
-
-.wrapper{
-    display: flex;
-    background-color:#0C0B0B;
-}
-
-/* James Cameron Terminator the Judgment day */ 
-.realTitreTerminatorsab{
-    margin: 0;
-    padding: 0;
-    color: white;
-    font-family: "workLg";
-    text-align: right;
-    /*border: 1px solid turquoise;*/
-    justify-content:flex-end;
-    align-items:flex-end;
-    padding-right: 370px;
-    padding-top: 140px;
-    padding-bottom: 10px;
-}
-
-/* Slider carousel Terminator */
-
-
-.carousel-item{
-   padding-left: 300px;
-}
-
-/* Coeur */
-
-.coeursab{
-    display: flex;
-    /*border: 1px solid turquoise;*/
-
-    margin-left: 1370px;
-    padding-top: 50px;
-    margin-right: 10px;
+    /* border: 2px solid hotpink; */
    
    
-}
-
-.bullesab{
-    /*border: 1px solid turquoise;*/
-    margin-right: 195px;
-    padding-top: 51px;
-}
-
+  }
+  
+  .bullesab {
+    
+    /* border: 2px solid rgb(114, 39, 253); */
+   
+    
+  }
+  
+  /* .col,.row {
+      background-color:#0C0B0B;
+      border: 3px dotted red;
+      
+      
+     
+  }
+  #quotesab{
+      display: flex;
+      justify-content: center;
+      color: rgb(253, 251, 251);
+      font-size: 5rem;
+      text-align: center;
+      border: rgb(247, 10, 10) 1px solid;
+  }
+  #hastasab{
+      color: white;
+      font-size: 8rem;
+      font-family: "Sign";
+      text-align: center;
+      border: rgb(224, 101, 64) 1px solid;
+  }
+  
+  #arnoldsab{
+      color: white;
+      font-size: 1rem;
+      text-align: left;
+      border: rgb(245, 5, 205) 1px solid;
+      padding: 0;
+      font-family: "workLg";
+  }
+  
+  #audioHastasab{
+      border: 1px solid rgb(224, 136, 64);
+      padding-left: 130px;
+      margin: 0;
+  }
+  figcaption{
+      color: white;
+      font-family:  "worklg";
+  }  */
+  
+  /* #videsab{
+      border: 1px solid rgb(209, 240, 33);
+      color: white;
+      
+  }
+  
+  /* ### Wapper Partie Real | Titre Film | Bulle Com | Like | ####*/
+  
+  /* James Cameron Terminator the Judgment day */
+  /* .realTitreTerminatorsab{
+      margin: 0;
+      padding: 0;
+      color: white;
+      font-family: "workLg";
+      text-align: right;
+      border: 1px solid rgb(41, 228, 72);
+      justify-content:flex-end;
+      align-items:flex-end;
+      padding-right: 370px;
+      padding-top: 140px;
+      padding-bottom: 10px;
+  } */
+  
+  /* Slider carousel Terminator */
+  
+  /* .carousel-item{
+     padding-left: 300px;
+     border: 4px solid rgb(64, 75, 224);
+     height: 800px;
+     background-color:#0C0B0B ;
+     justify-content: center;
+  } */
+  
+  /* Coeur */
+  
+  /* .coeursab{
+      display: flex;
+      border: 1px solid rgb(3, 92, 83);
+  
+      margin-left: 1370px;
+      padding-top: 50px;
+      margin-right: 10px;
+      background-color:#0C0B0B ;
+     
+     
+  }
+  
+  .bullesab{
+      border: 1px solid turquoise;
+      margin-right: 195px;
+      padding-top: 51px;
+  } */
+  

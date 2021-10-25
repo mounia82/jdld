@@ -1,35 +1,48 @@
-.text{
+*{
+    box-sizing: content-box;
+}
+/* .text{
     text-align: center;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;  
-}
+    color: white; 
+    text-transform: uppercase; 
+} */
 .boxConnexion{
-    width: 600px;
-    padding: 10px;
+    width: 500px;
+    padding: 0px;
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%,-50%);
      background: #37373a71; 
     text-align: center;
     border-radius: 30px;
-    border: 0.10px solid #2196f3;
+    border: 0.10px solid #8c8c8db4;
 }
 .boxInscription{
-    width: 600px;
-    padding: 10px;
+    width: 500px;
+    padding: 0px;
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%,-50%);
     background: #37373a71;
     text-align: center;
-    border-radius: 40px;
-    border: 0.10px solid #2196f3;
+    border-radius: 30px;
+    border: 0.10px solid #8c8c8d;
 }
+/* .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  } */
+  /* Avatar image */
+  img.avatar {
+    width: 20%;
+    border-radius: 50%;
+  }
 .error{
     color:red;
 }
@@ -88,8 +101,8 @@
   }*/
   .boxConnexion, .boxInscription h3{ 
     padding-top: 10px;  
-    color:#2196f3;
-    text-transform: uppercase;
+    color:#ffffff;/*#2196f3*/
+    /* text-transform: uppercase; */
     font-weight: 500;
     letter-spacing: 4px;
 }
@@ -101,7 +114,7 @@
     text-align: center;
     border: 1px solid #7d7e80;
     padding: 14px 20px; 
-    width: 300px;
+    width: 250px;
     outline: none;
     color: #ffffff;
     border-radius: 15px;
@@ -109,7 +122,7 @@
 }
 .boxConnexion input[type = "email"]:focus, .boxConnexion input[type ="password"]:focus{
     width: 280px;
-    border-color: #2196f3;
+    border-color: #959596;
 }
 .boxConnexion button[type = "submit"]{
     border:0;
@@ -124,12 +137,12 @@
     border:2px  #a9adad;
     padding: 14px 60px;
     outline: none;
-    color:#2196f3;
+    color:#696a6b;
     border-radius: 5px;
     transition: 0.2s;
-    /* cursor: pointer; */
+    /* cursor: pointer;  */
 }
-.boxConnexion button::before {
+ .boxConnexion button::before {
     position: absolute;
     content: "";
     top: 0;
@@ -144,76 +157,78 @@
     );
     transform: translateX(-100%);
     transition: 0.6s;
-  }
+  } 
   .boxConnexion button:hover {
     background: transparent;
-    box-shadow: 0 0 20px 10px hsla(204, 70%, 53%, 0.5);
+    box-shadow: 0 0 20px 10px hsla(0, 0%, 55%, 0.5);
   }
-  .boxConnexion button::before {
+  /* .boxConnexion button::before {
     transform: translateX(100%);
-  }
+  } */
 /* .boxConnexion button[type = "submit"]:hover{
     color:#255784;
     background:#2196f3;
     box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3 ;
     transition-delay: 0.5s;
 } */
-.boxConnexion span {
+/* .boxConnexion span {
     position:relative;
     display: block;
-}
-.boxConnexion span:nth-child(1){
+} */
+/* .boxConnexion span:nth-child(1){
     top: 0;
     left: 100%;
     width: 100%;
     height: 2px;
-    background:linear-gradient(90deg,transparent,#2196f3);
-}
-.boxConnexion :hover span:nth-child(1){
+    background:linear-gradient(90deg,transparent,#8b8c8d);
+} */
+/* .boxConnexion :hover span:nth-child(1){
     left: 100%;
     transition:1s;
-}
-.boxConnexion span:nth-child(3){
+} */
+/* .boxConnexion span:nth-child(3){
     bottom: 0;
     right: 100%;
     width: 100%;
     height: 2px;
-    background:linear-gradient(270deg,transparent,#2196f3);
-}
-.boxConnexion :hover span:nth-child(3){
+    background:linear-gradient(270deg,transparent,#8a8b8b);
+} */
+/* .boxConnexion :hover span:nth-child(3){
     right: 100%;
     transition:1s;
     transition-delay: 0.5s;
-}
-.boxConnexion span:nth-child(2){
+} */
+/* .boxConnexion span:nth-child(2){
     top: 0;
     right: 100%;
     width: 2px;
     height: 100%;
-    background:linear-gradient(180deg,transparent,#2196f3);
-}
-.boxConnexion :hover span:nth-child(2){
+    background:linear-gradient(180deg,transparent,#878788);
+} */
+/* .boxConnexion :hover span:nth-child(2){
     top: 100%;
     transition:1s;
     transition-delay: 0.25s;
-}
-.boxConnexion span:nth-child(4){
+} */
+/* .boxConnexion span:nth-child(4){
     bottom: 0;
     left: 0;
     width: 2px;
     height: 100%;
     background:linear-gradient(360deg,transparent,#2196f3);
-}
-.boxConnexion :hover span:nth-child(4){
+} */
+/* .boxConnexion :hover span:nth-child(4){
     top: 100%;
     transition:1s;
     transition-delay: 0.75s;
-}
+} */
 .Account{
     color: white;
     font: 0.8em sans-serif;
     padding-top: 20px;
     padding-bottom: 20px;
+    display:flex;
+    justify-content:center;
 }
 .Account a{
     color: white;
@@ -226,7 +241,7 @@
     text-align: center;
     border: 1px solid #7d7e80;
     padding: 14px 20px; 
-    width: 300px;
+    width: 250px;
     outline: none;
     color: #ffffff;
     border-radius: 15px;
@@ -234,27 +249,46 @@
 }
 .boxInscription input[type = "text"]:focus, .boxInscription input[type ="password"]:focus{
     width: 280px;
-    border-color: #2196f3;
+    border-color: #959596;
 }
 .boxInscription button[type = "submit"]{
     border:0;
-    background: none;
     display: block;
     margin:20px auto;
     text-align: center;
-    border:2px solid #a9adad;
-    padding: 14px 50px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    border:2px  #a9adad;
+    padding: 14px 60px;
     outline: none;
-    color: white;
-    border-radius: 24px;
+    color: #696a6b;
+    border-radius: 15px;
     transition: 0.25s;
-    cursor: pointer;
+    /* cursor: pointer; */
+    font-size: 24px;
+    overflow: hidden;
 }
-.boxInscription button[type = "submit"]:hover{
-    background:#2f3436;
-}
-
-.copy{
+.boxInscription button::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      120deg,
+      transparent,
+      var(--primary-color),
+      transparent
+    );
+    transform: translateX(-100%);
+    transition: 0.6s;
+  } 
+  .boxInscription button:hover {
+    background: transparent;
+    box-shadow: 0 0 20px 10px hsla(0, 0%, 55%, 0.5);
+  }
+/* .copy{
     height:50px;
     padding:0;
     margin:0;
@@ -263,9 +297,8 @@
     text-align: center;
     margin-bottom: 7px;
     margin-top: 18px;
-}
-
-footer {
+} */
+/* footer {
     padding:0;
     margin:0;
     clear:both;
@@ -274,4 +307,4 @@ footer {
     background-color: black;
     width: 100%;
     
-}
+} */
