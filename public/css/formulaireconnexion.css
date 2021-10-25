@@ -1,5 +1,6 @@
 *{
     box-sizing: content-box;
+    font-family:'work';
 }
 /* .text{
     text-align: center;
@@ -226,9 +227,18 @@
     color: white;
     font: 0.8em sans-serif;
     padding-top: 20px;
-    padding-bottom: 20px;
-    display:flex;
-    justify-content:center;
+    padding-left:10px;
+    /* padding-bottom: 20px; */
+  display:flex;
+  justify-content:center;
+}
+.inscrivezvous {
+    text-align:center;
+}
+
+#inscrivezvous2 {
+    text-align:center;
+    padding-left:50px;
 }
 .Account a{
     color: white;

@@ -107,7 +107,7 @@
 
 
 
-        <div><a href="?section=replique&categ=?categ=<?= $_GET["categ"] ?>&emotion=joie#replique"><img class="imagepq" src="public/images/images2page/intouchables.jpg" alt="" data-aos="zoom-in-down" data-aos-duration="1800" data-aos-delay="1750"></a></div>
+        <div><a href="?section=replique&categ=<?= $_GET["categ"] ?>&emotion=joie#replique"><img class="imagepq" src="public/images/images2page/intouchables.jpg" alt="" data-aos="zoom-in-down" data-aos-duration="1800" data-aos-delay="1750"></a></div>
 
 
 
