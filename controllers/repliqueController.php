@@ -43,7 +43,7 @@ if (isset($_GET["categ"]) && isset($_GET["emotion"])) {
                 <p id="titreFilm" class=" col-6 " > ' . $rep['film_titre'] . " - " . $rep['film_date'] . '</p>
               
                 <p id="" class="realisateur col-6 " > ' . $rep['realisateur_prenom'] . " " . $rep['realisateur_nom'] . '</p>
-
+                
             </div>
 
             <div class="row">
