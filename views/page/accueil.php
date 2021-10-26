@@ -61,7 +61,7 @@ if (isset($_GET["categ"]) && isset($_GET["emotion"])) {
             <div class="divApropos">
 
 
-                <img class="aproposImg" src="public/images/images1page/final/Untitled-1.jpg" alt="" data-aos="fade-right" data-aos-duration="1800" data-aos-easing="ease-in-out" data-aos-delay="100">
+                <img class="aproposImg" src="public/images/django1.jpg" alt="" data-aos="fade-right" data-aos-duration="1800" data-aos-easing="ease-in-out" data-aos-delay="100">
 
                 <p class="aproposTexte" data-aos="fade-left" data-aos-duration="1800" data-aos-easing="ease-in-out" data-aos-delay="300">
                     Devenir un as de la répartie? Mais comment ? <br>
