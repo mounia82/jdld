@@ -29,6 +29,12 @@
     opacity:1;
 }
 
+#premImage:hover {
+    transform: scale(2);
+    cursor:pointer;
+    transition: 0.1s ease-in-out;
+    opacity:1;
+}
 .containerpqiman {
     
     background-color:#0B0B0B ;

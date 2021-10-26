@@ -61,12 +61,12 @@ if (isset($_GET["categ"]) && isset($_GET["emotion"])) {
             <div class="divApropos">
 
 
-                <img class="aproposImg" src="public/images/images1page/final/Untitled-1.jpg" alt="" data-aos="fade-right" data-aos-duration="1800" data-aos-easing="ease-in-out" data-aos-delay="100">
+                <img class="aproposImg" src="public/images/django1.jpg" alt="" data-aos="fade-right" data-aos-duration="1800" data-aos-easing="ease-in-out" data-aos-delay="100">
 
                 <p class="aproposTexte" data-aos="fade-left" data-aos-duration="1800" data-aos-easing="ease-in-out" data-aos-delay="300">
                     Devenir un as de la répartie? Mais comment ? <br>
-                    C'est très simple. Il suffit de scroller en bas et choisir la catégorie et l'émotion ressentie lors de votre discussion afin qu'une réplique soit générée! <br> Deux répliques s'appliquent par catégorie et émotion.<br> Vous n'y trouvez pas votre compte ? On a pensé à tout: choisissez "autre" dans les deux champs et le tour est joué!
-                    <br>N'oubliez pas le second degré pour l'utilisation de la réplique de film, parce que nous, nous l'avons pas oublié :)
+                    C'est très simple. Il suffit de scroller en bas et choisir la catégorie et l'émotion ressentie lors de votre discussion afin qu'une réplique soit générée ! <br> Deux répliques s'appliquent par catégorie et émotion.<br> Vous n'y trouvez pas votre compte ? On a pensé à tout : choisissez "autre" dans les deux champs et le tour est joué!
+                    <br>N'oubliez pas le second degré pour l'utilisation de la réplique de film, parce que nous, nous l'avons pas oublié 😁
 
                 </p>
             </div>
@@ -101,7 +101,7 @@ if (isset($_GET["categ"]) && isset($_GET["emotion"])) {
 
         <div class="imageDivpqiman">
 
-            <div><a href="?section=questionsuivante&categ=amis"><img class="imagepqiman" src="public/images/images1page/final/hangover2.jpg" alt="" data-aos="zoom-in" data-aos-duration="1800" data-aos-delay="50"></a></div>
+            <div id="premImage"><a href="?section=questionsuivante&categ=amis"><img class="imagepqiman" src="public/images/images1page/final/hangover2.jpg" alt="" data-aos="zoom-in" data-aos-duration="1800" data-aos-delay="50"></a></div>
 
             <div><a href="?section=questionsuivante&categ=couple"><img class="imagepqiman" src="public/images/images1page/final/Untitled-1.jpg" alt="" data-aos="zoom-in" data-aos-duration="1900" data-aos-delay="300"></a></div>
 

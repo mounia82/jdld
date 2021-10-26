@@ -195,7 +195,7 @@ INSERT INTO `emotions` (`id_emotions`, `nom_emotion`) VALUES
 (5, 'Peur'),
 (6, 'Joie'),
 (7, 'Mépris'),
-(8, 'Autres');
+(8, 'Autre');
 
 -- --------------------------------------------------------
 
