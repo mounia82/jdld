@@ -101,7 +101,7 @@ if (isset($_GET["categ"]) && isset($_GET["emotion"])) {
 
         <div class="imageDivpqiman">
 
-            <div><a href="?section=questionsuivante&categ=amis"><img class="imagepqiman" src="public/images/images1page/final/hangover2.jpg" alt="" data-aos="zoom-in" data-aos-duration="1800" data-aos-delay="50"></a></div>
+            <div id="premImage"><a href="?section=questionsuivante&categ=amis"><img class="imagepqiman" src="public/images/images1page/final/hangover2.jpg" alt="" data-aos="zoom-in" data-aos-duration="1800" data-aos-delay="50"></a></div>
 
             <div><a href="?section=questionsuivante&categ=couple"><img class="imagepqiman" src="public/images/images1page/final/Untitled-1.jpg" alt="" data-aos="zoom-in" data-aos-duration="1900" data-aos-delay="300"></a></div>
 

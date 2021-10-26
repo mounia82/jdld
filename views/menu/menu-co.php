@@ -32,9 +32,9 @@
      
 <a href="?section=accueil" id="register"><img class="logo" src="public/images/logoo4.png" alt="logo" ></a>
 
-     <a href="#apropos" >A PROPOS</a>
+     <a href="?section=accueil#apropos" >A PROPOS</a>
 
-     <a href="#generateur">GENERATEUR</a>
+     <a href="?section=accueil#generateur">GENERATEUR</a>
 
      <!-- <a href="?section=contact">CONTACT</a> -->
 
