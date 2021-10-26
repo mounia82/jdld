@@ -16,55 +16,47 @@ if (isset($_GET["categ"]) && isset($_GET["emotion"])) {
     $table3 = "";
     $i = 0;
     // if $count($repliques > 1) {
-    //     # code...
+    //     return true;
     // }else{
-        
-    // }
-    foreach ($repliques as $rep) {
+    //     return $this->nextpage->GetNextPage($first);
+    foreach ($repliques as $rep) 
+    {
         $table3 .= '<div class="carousel-item ' . (($i == 0) ? 'active' : '') . '">
             <div class="row">
                 <div id="quotesab" class="col-12"><h2 class="h2quote">&#x275d;</h2></div>
-                <div id="hastasab" class="col-12"><p>' . $rep['replique'] . '</p> </div>
+                <div id="hastasab" class="col-12"><p>' . $rep['replique'] . '</p> </div>
+                <div  class="col-12"><p id="trad" style="color:white;display: flex;justify-content: center;font-family: "workLg";font-style: italic;">' . $rep['traduction'] . '</p> </div>
             </div>
             <div class="row">
                 <figure id="audioHastasab" class="col-5">
-                <audio
+                <figcaption>' . $rep['acteur_nom'] . " " . $rep['acteur_prenom'] . '</figcaption><audio
                     controls
                     loop
                     controls
                     type="audio/wav"
                     src="public/audio/' . $rep['audio'] . '"
-                ></audio><figcaption>' . $rep['acteur_nom'] . " " . $rep['acteur_prenom'] . '</figcaption>
+                ></audio>
                 </figure>
-                
-                
+                <p id="titreFilm" > ' . $rep['film_titre'] . " - " . $rep['film_date'] .' | '. '  ' . $rep['realisateur_prenom'] . ' ' . $rep['realisateur_nom'] . '</p>
             </div>
-            <div class="row">
-                <p id="titreFilm" class=" col-6 " > ' . $rep['film_titre'] . " - " . $rep['film_date'] . '</p>
-              
-                <p id="" class="realisateur col-6 " > ' . $rep['realisateur_prenom'] . " " . $rep['realisateur_nom'] . '</p>
-                
-            </div>
-
             <div class="row">
                 <div class="col-12 bandeFilm1"><img src="public/images/' . $rep['image'] . '" alt="bandeFilm1"></div>
-
             </div>
             <div class="row">
-            
-                <img style="width: 10px; height:auto;" class="coeursab col-1"  src="public/images/boutons/boutonCoeurBlanc.png" alt="like">
-                <img style="width: 10px; height:auto;" class="bullesab col-1"  src="public/images/boutons/bulleCommentaire.png" alt="commentaire">
-            </div>
-          
-            
-
-
+                <div class="col-2">
+                    <img id="coeur" style="width: 42px; height:auto;" class="coeursab"  src="public/images/boutons/boutonCoeurBlanc.png" alt="like">
+                </div>
+                <div class"col-2">
+                    <img id="bulle" style="width: 42px; height:auto;" class="bullesab "  src="public/images/boutons/bulleCommentaire.png" alt="commentaire">
+                </div>  
+            </div>  
             </div>';
         $i++;
+    // }
     }
-
-    
-
+    echo count($repliques);
+?>
+<?php
     // var_dump($rep);
     // $table3 .= "<tr>";
     /*  $table3 .= "<td>". $rep['id_replique'] . "</td>"; */
@@ -73,12 +65,5 @@ if (isset($_GET["categ"]) && isset($_GET["emotion"])) {
     // $table3 .= "<p class=\"displayReplique\">" . $rep['replique'] . "<br>" . $rep['film_titre'] ." ". $rep['realisateur_nom']." ". $rep['realisateur_prenom']. $rep['film_date'] ."<audio controls
     //         src=public/audio/chewinggum.mp3>" . "</audio>" . "<br>" . $rep['acteur_nom']. " " . $rep['acteur_prenom']  . "<img src='" .  $rep['image'] . "'>" . "</p>";
     // // $table3 .= "</tr>";
-
 }
-
-
-
-
-
-
 include("views/page/replique.php");

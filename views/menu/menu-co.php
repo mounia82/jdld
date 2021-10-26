@@ -30,7 +30,7 @@
 
 <div class="menu" >
      
-<a href="?section=accueil" id="register"><img class="logo" src="public/images/logo.png" alt="logo" ></a>
+<a href="?section=accueil" id="register"><img class="logo" src="public/images/logoo4.png" alt="logo" ></a>
 
      <a href="#apropos" >A PROPOS</a>
 
