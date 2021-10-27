@@ -24,7 +24,7 @@ if (isset($_GET["categ"]) && isset($_GET["emotion"])) {
         $table3 .= '<div class="carousel-item ' . (($i == 0) ? 'active' : '') . '">
             <div class="row">
                 <div id="quotesab" class="col-12"><h2 class="h2quote">&#x275d;</h2></div>
-                <div id="hastasab" class="col-12"><p>' . $rep['replique'] . '</p> </div>
+                <div id="hastasab" class="col-md-8 offset-md-2"><p class="replique">' . $rep['replique'] . '</p> </div>
                 <div  class="col-12"><p id="trad" style="color:white;display: flex;justify-content: center;font-family: "workLg";font-style: italic;">' . $rep['traduction'] . '</p> </div>
             </div>
             <div class="row">

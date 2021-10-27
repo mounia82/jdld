@@ -46,6 +46,21 @@ html{
 
 }
 
+.menu a:hover{
+    text-decoration: underline;
+    margin-left: 12px;
+    font-size: 17px;
+    text-align: justify;
+    margin-right: 70px;
+    color: rgb(240, 233, 233);
+    text-decoration: none;
+    margin-top: 148px;
+
+    font-family: 'work';
+    line-height: 116px;
+   
+
+}
 
 /* 
 ?             TITRES PAGE D'ACCUEIL
@@ -353,10 +368,13 @@ justify-content:space-evenly;
   padding-top:300px;
   
 }
-
+i {
+    /* background-color:white; */
+    color:white;
+}
 
 /*
-                                   ? MEDIA QUERIES
+!                         MEDIA QUERIES
 */
 
 
@@ -380,10 +398,10 @@ Extra extra large	xxl	≥1400px */
     }
 
     .menu a{
-        margin-left: 12px;
-        font-size: 17px;
+        margin-left: 5px;
+        font-size: 8px;
         text-align: justify;
-        margin-right: 70px;
+        margin-right: 30px;
         color: rgb(240, 233, 233);
         text-decoration: none;
         margin-top: 148px;
@@ -395,16 +413,313 @@ Extra extra large	xxl	≥1400px */
     }
 
     .h1mimi {
-    font-size: 52px;
+    font-size: 50px;
             } 
 
     .h2mimi {
-     font-size:7px;
+     font-size:9px;
                
                 
             }
-}
- i {
-    /* background-color:white; */
-    color:white;
+
+
+
+
+/* 
+    ?             TITRES PAGE D'ACCUEIL
+    */
+ 
+    
+    .apresmenu {
+        height:170px;
+        background-color:#0B0B0B; 
+    }
+    /* 
+    ?                   LOGO
+    */
+    .logo{
+        display:flex;
+        justify-content:flex-start;
+         width: 70px;
+         padding-top:-25px;
+       /* height: 88px; */
+        /* left: 14px; */
+        position: absolute;
+        margin-top: 24px;
+       /*  margin-left: 11px; */
+    }
+    
+    @font-face {
+        font-family: 'moniqablack_condensed_display';
+        src: url('../../public/fonts/moniqa-blackcondenseddisplay-webfont.woff2') format('woff2'),
+             url('../../public/fonts/moniqa-blackcondenseddisplay-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    
+    }
+    /*
+    @font-face {
+        font-family: 'neutral_faceregular';
+        src: url('../../public/fonts/neutralface-webfont.woff2') format('woff2'),
+             url('../../public/fonts/moniqa-display-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    
+    }
+    */
+    /* 
+    ?                           FOOTER
+    */
+    
+    
+    
+    .copy{
+        height:50px;
+        padding-right:60px;
+        margin:0;
+        font-size:11px;
+        color: rgb(240, 233, 233);
+        text-align: center;
+        margin-bottom: 7px;
+        margin-top: 18px;
+    }
+    
+    .footer {
+        padding-top:0px;
+        margin:0;
+        clear:both;
+        position:fixed;
+        height:100px;
+        background-color: black;
+        width: 100%;
+        
+    }
+ 
+    
+    /* 
+    ?                              ICONES FOOTER
+    */
+    .icons {
+        font-size:10px;
+        text-align: center;
+        color:white;
+        padding:10px;
+        
+    }
+    .bi-chevron-bar-up {
+        margin-top:-22px;
+        /* padding-top:25px; */
+        font-size:30px;
+        float:right;
+        /* padding:10px; */
+    }
+    /* 
+    ?                            1ere    FLECHE ANIMEE
+    */
+    
+    
+    
+      .arrow{
+          padding-top:20px;
+         height:30px;
+          position: absolute;
+          top: 92%;
+          left: 50.9%;
+          transform: translate(-50%,-50%);
+          /* padding-bottom: 100px; */
+      }
+    
+     
+      .arrow span{
+          position:absolute;
+          display: block;
+          width: 15px;
+          height: 15px;
+          border-bottom: 5px solid #ffffff;
+          border-right: 5px solid #ffffff;
+          transform: rotate(45deg);
+          margin: -10px;
+          animation: animate 2s infinite;
+          
+      }
+      .arrow span:nth-child(2){
+          animation-delay: -0.2s;
+      }
+      .arrow span:nth-child(3){
+          animation-delay: -0.4s;
+      }
+      @keyframes animate {
+          0%{
+              opacity: 0;
+              transform: rotate(45deg) translate(-20px,-20px);
+          }
+          50%{
+              opacity: 1;
+          }
+          100%{
+              opacity: 0;
+              transform: rotate(45deg) translate(20px,20px);
+          }
+      }
+    
+    
+    
+      /* 
+    ?                            2eme    FLECHE ANIMEE
+    */
+    
+    
+    .arrow2{
+        text-align: center;
+        /* padding-top:20px; */
+       height:50px;
+        /* position: absolute; */
+        /* top: 92%;
+        left: 50.2%; */
+        transform: translate(-50%,-50%);
+        /* padding-bottom: 100px; */
+        /* display:flex; */
+        /* align-items: center; */
+    }
+    
+    
+    .arrow2 span{
+        position:absolute;
+        display: block;
+        width: 15px;
+        height: 15px;
+        border-bottom: 5px solid #ffffff;
+        border-right: 5px solid #ffffff;
+        transform: rotate(45deg);
+        margin: -10px;
+        animation: animate 2s infinite;
+        
+    }
+    .arrow2 span:nth-child(2){
+        animation-delay: -0.2s;
+    }
+    .arrow2 span:nth-child(3){
+        animation-delay: -0.4s;
+    }
+    @keyframes animate {
+        0%{
+            opacity: 0;
+            transform: rotate(45deg) translate(-20px,-20px);
+        }
+        50%{
+            opacity: 1;
+        }
+        100%{
+            opacity: 0;
+            transform: rotate(45deg) translate(20px,20px);
+        }
+    }
+    
+    .divArrow {
+    display:flex;
+    background-color:#0B0B0B ;
+    justify-content: center;
+    }
+    
+     /* 
+    ?                               SOURIS LUMIERE
+    */
+    
+     
+    
+    .light {
+        position: fixed;
+        top : 0;
+        left:0;
+        width:10%;
+        height:100%;
+        pointer-events: none;
+        background: radial-gradient(circle at var(--x) var(--y),transparent 10%, rgba(0, 0, 0, 0.95) 10%);
+    }
+     /*
+     ?                             SECTION A PROPOS
+     */
+    .apropos {
+        
+        background-color:#0B0B0B;
+        display:flex;
+        /* align-items:center; */
+        /* justify-content:space-between; */
+        height:750px;
+        /* padding-right: -20px; */
+        flex-direction: column;
+        /* padding-left:100px; */
+        align-content:space-around;
+       
+    
+    }
+    
+    .titreImageTexte {
+        display:flex;
+        flex-direction: column;
+        align-content: space-between;
+    }
+    .aproposTitre {
+        
+        display:flex;
+        /* justify-content:center; */
+        /* padding-top:90px;
+        padding-bottom:90px; */
+         /* padding-left:100px; */
+        color:white;
+        font-size:25px;
+        padding-left: 5px;
+        
+    }
+    
+    .divApropos {
+    display:flex;
+    flex-direction:column;
+    align-content:center;
+    }
+     .aproposImg {
+         padding-right:7px;
+        /* width:15%; */
+        width:400px;
+        height:400px;
+    } 
+    .aproposTexte {
+      
+      padding-top:50px;
+      /* padding-left:100px; */
+      color:white;
+      /* width:60%; */
+     letter-spacing: 1px;
+     width:90%;
+     font-size:20px;
+     text-align:justify;
+     text-justify: inter-word;
+     
+        
+    }
+    /* 
+    ?                                ICONES DE COTE
+    */
+    
+    /* jfdlkfdjgl */
+    
+    .sidebaricons {
+      font-size:20px;
+      height:100%;
+      color:rgb(255, 255, 255);
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      position:fixed;
+      /* padding-left:15px; */
+      left:0;
+      padding-left:1px;
+      padding-bottom:5px;
+      top:0;
+      z-index: 1;
+      padding-top:300px;
+      
+    }
+
+
 }

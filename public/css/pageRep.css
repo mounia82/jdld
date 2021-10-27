@@ -189,3 +189,15 @@ figcaption{
     margin-right: 195px;
     padding-top: 51px;
 } */
+
+#hastasab {
+  color: white;
+  font-family: "sign";
+  font-size: 3rem;
+}
+.replique{
+  text-align: center;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+}

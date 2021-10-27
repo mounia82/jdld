@@ -56,24 +56,8 @@
 
     </div>
 
-    <!-- <div class="light">
-
-</div> -->
 
 
-    <script type="text/javascript">
-        var pos = document.documentElement;
-
-        pos.addEventListener('mousemove', e => {
-
-            pos.style.setProperty('--x', e.clientX + 'px')
-
-            pos.style.setProperty('--y', e.clientY + 'px')
-
-
-
-        })
-    </script>
     <!--
     Joie
     Tristesse --
@@ -126,7 +110,7 @@
 
 
 <!-- </div> -->
-
+<div class="footer22">
 <footer class="footer2">
     <div class="icons2">
         <a href="https://www.facebook.com/"> <i class="bi bi-facebook" alt="facebook" style="color: rgb(253, 253, 252); padding:10px;"></i></a>&nbsp;
@@ -137,3 +121,5 @@
 
     <p class="copy2"> &copy; 2021 JDLD</p>
 </footer>
+
+</div>

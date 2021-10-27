@@ -140,3 +140,131 @@ i {
     padding-right:60px; 
    
 }
+
+/*
+!                         MEDIA QUERIES
+*/
+@media screen and (max-width:576px) {
+
+
+    .menu a {
+        font-size:11px;
+    }
+    .titre1pq {
+    
+        /* height:200px; */
+        text-align: center;
+        font-size: 25px;
+        color: rgb(245, 238, 238);
+        font-family: 'work';
+        /* height:100px; */
+        
+    }
+     
+    
+    
+    .imagepq {
+        padding: 20px;
+        width:250px;
+        height:360px;
+        opacity: 0.5;
+       
+        
+    }
+    
+    /* .imagepqiman:hover {
+        transform: scale(2);
+        cursor:pointer;
+        transition: 0.1s ease-in-out;
+        opacity:1;
+    }  */
+    #affiche1, #affiche2,  #affiche3, #affiche4, #affiche5 {
+        
+        cursor:pointer;
+        transition: 0.1s ease-in-out;
+        opacity:0.5;
+    }
+    #affiche1:hover, #affiche2:hover,  #affiche3:hover, #affiche4:hover, #affiche5:hover {
+        transform: scale(1.3);
+        cursor:pointer;
+        transition: 0.1s ease-in-out;
+        opacity:1;
+    }
+    .containerpq {
+        position:relative;
+        background-color:#0B0B0B ;
+        /* height:1000px; */
+        padding-top:1000px;
+        display:flex;
+        flex-direction: column;
+        /* align-items: center; */
+        justify-content: center;
+        font-family: 'work';
+      
+    
+    }
+    .imageDivpq {
+        /* padding-top:70px; */
+        display: flex;
+        flex-direction: column;
+        /* height:500px; */
+    }
+    
+    .h1Divpq {
+        padding-top:500px;
+        font-size:20px;
+        /* padding-top:200px; */
+        display: flex;
+        flex-direction: column;
+        /* align-self: flex-end; */
+        align-content: flex-start;
+        /* padding-bottom: 20px; */
+        /* height:220px; */
+        
+    }
+
+  
+    i {
+        font-size:15px;
+    }
+
+    .bruh {
+        /* padding-top:100px; */
+        display:flex;
+        flex-direction: column;
+    }
+
+
+        
+/*     
+    .copy2{
+        height:50px;
+        padding-right:60px;
+        margin:0;
+        font-size:11px;
+        color: rgb(240, 233, 233);
+        text-align: center;
+        margin-bottom: 7px;
+        margin-top: 18px;
+    } */
+    
+    .footer2 {
+        padding:0;
+        margin:0;
+        bottom:0;
+        position:relative;
+        height:120px;
+        background-color: rgb(0, 0, 0);
+        width: 100%;
+        /* display:flex; */
+        /* align-items:center; */
+        /* flex-direction: column; */
+        /* align-content: center; */
+        
+    }
+
+    .footer22 {
+        padding-top:1500px;
+    }
+    
+}
