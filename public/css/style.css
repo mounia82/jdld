@@ -46,21 +46,18 @@ html{
 
 }
 
-.menu a:hover{
-    text-decoration: underline;
-    margin-left: 12px;
-    font-size: 17px;
-    text-align: justify;
-    margin-right: 70px;
-    color: rgb(240, 233, 233);
+a:link {
     text-decoration: none;
-    margin-top: 148px;
-
-    font-family: 'work';
-    line-height: 116px;
-   
-
-}
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+  }
 
 /* 
 ?             TITRES PAGE D'ACCUEIL
