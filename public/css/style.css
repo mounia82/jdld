@@ -71,7 +71,7 @@ html{
 }
 
 .apresmenu {
-    height:150px;
+    height:170px;
     background-color:#0B0B0B; 
 }
 /* 
@@ -163,7 +163,7 @@ html{
      height:50px;
       position: absolute;
       top: 92%;
-      left: 50.2%;
+      left: 49.9%;
       transform: translate(-50%,-50%);
       /* padding-bottom: 100px; */
   }
@@ -314,7 +314,7 @@ display:flex;
 justify-content:space-evenly;
 }
 .aproposImg {
-    width:35%;
+    width:38%;
 }
 .aproposTexte {
   
@@ -323,7 +323,7 @@ justify-content:space-evenly;
   color:white;
   /* width:60%; */
  letter-spacing: 1px;
- width:35%;
+ width:33%;
  font-size:20px;
  text-align:justify;
  text-justify: inter-word;
@@ -359,23 +359,51 @@ justify-content:space-evenly;
                                    ? MEDIA QUERIES
 */
 
-@media (max-width:576px){
+
+/* X-Small	None	<576px
+Small	sm	≥576px
+Medium	md	≥768px
+Large	lg	≥992px
+Extra large	xl	≥1200px
+Extra extra large	xxl	≥1400px */
+
+ /* sur les ecrans qui sont 576px ou moins ! */
+ @media screen and (max-width:576px){
     .menu {
-        width:100%;
-}
+
+    text-align: right;
+    width: 100%;
+    background-position-x: center;
+    margin-top: -5px;
+    height: 660px;
+    background-color:#0B0B0B ;
+    }
+
+    .menu a{
+        margin-left: 12px;
+        font-size: 17px;
+        text-align: justify;
+        margin-right: 70px;
+        color: rgb(240, 233, 233);
+        text-decoration: none;
+        margin-top: 148px;
     
+        font-family: 'work';
+        line-height: 116px;
+       
+    
+    }
+
     .h1mimi {
     font-size: 52px;
-} 
-    
-    .h2mimi {
-    font-size:7px;
-                   
-                    
- }
-    
-}
+            } 
 
+    .h2mimi {
+     font-size:7px;
+               
+                
+            }
+}
  i {
     /* background-color:white; */
     color:white;
