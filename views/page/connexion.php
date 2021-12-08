@@ -3,7 +3,7 @@
             <div class="col-md-6"> -->
     <div class="boxConnexion">
         <div class="imgcontainer">
-            <img src="public/images/avatar.png" alt="Avatar" class="avatar">
+            <img src="public/images/avatar1.png" alt="Avatar" class="avatar">
         </div>
         <!-- <h3>Se connecter</h3> -->
         <form method="post" action="#" class="box">
@@ -32,7 +32,7 @@
                 <input type="checkbox" checked="checked" name="remember"> Remember me
             </label>
             <div class="Account">
-                <h6 class="inscrivezvous">Vous n'avez pas de compte ? <br><a href="?</section=creer"><span id="inscrivezvous2">Inscrivez-vous!</span></h6></a>
+                <h6 class="inscrivezvous">Vous n'avez pas de compte ? <br><a href="?section=inscription"><span id="inscrivezvous2">Inscrivez-vous!</span></h6></a>
             </div>
         </form>
     </div>

@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "sign";
-  src: url(../fonts/SignPainter\ HouseScript\ Regular.ttf);
+  font-family: "singP";
+  src: url(../../public/fonts/SignPainter.ttf);
 }
 @font-face {
   font-family: "work";
@@ -41,10 +41,21 @@
   color: white;
   text-align: center;
   /* border: 3px blue solid; */
-  font-family: "Sign";
-  font-size: 4rem;
+  font-family: "singP";
   box-sizing: content-box;
 }
+
+.replique{
+  text-align: center;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  font-family: "singP";
+  
+}
+
+
+
 #audioHastasab{
   margin-bottom: 70px;
 }
@@ -100,6 +111,8 @@ figcaption {
 }
 #trad{
   color: white;
+  font-style: italic;
+  font-family: "workLg";
 }
 /* .col,.row {
     background-color:#0C0B0B;

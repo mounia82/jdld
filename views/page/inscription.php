@@ -4,7 +4,7 @@
             <div class="boxInscription">
                 <!-- <h3>S'INSCRIRE</h3> -->
                 <div class="imgcontainer">
-                            <img src="public/images/avatar.png" alt="Avatar" class="avatar">
+                            <img src="public/images/avatar1.png" alt="Avatar" class="avatar">
                                 </div>
                 <form method="post" action="#"  class="box1">
                     <?php

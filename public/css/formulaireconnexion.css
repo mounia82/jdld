@@ -1,320 +1,294 @@
 *{
-    box-sizing: content-box;
-    font-family:'work';
+  box-sizing: content-box;
+  font-family:'work';
 }
 /* .text{
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white; 
-    text-transform: uppercase; 
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white; 
+  text-transform: uppercase; 
 } */
 .boxConnexion{
-    width: 500px;
-    padding: 0px;
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-     background: #37373a71; 
-    text-align: center;
-    border-radius: 30px;
-    border: 0.10px solid #8c8c8db4;
+  width: 500px;
+  padding: 0px;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+   background: #37373a71; 
+  text-align: center;
+  border-radius: 30px;
+  border: 0.10px solid #8c8c8db4;
 }
 .boxInscription{
-    width: 500px;
-    padding: 0px;
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    background: #37373a71;
-    text-align: center;
-    border-radius: 30px;
-    border: 0.10px solid #8c8c8d;
+  width: 500px;
+  padding: 0px;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #37373a71;
+  text-align: center;
+  border-radius: 30px;
+  border: 0.10px solid #8c8c8d;
 }
 /* .imgcontainer {
-    text-align: center;
-    margin: 24px 0 12px 0;
-  } */
-  /* Avatar image */
-  img.avatar {
-    width: 20%;
-    border-radius: 50%;
-  }
+  text-align: center;
+  margin: 24px 0 12px 0;
+} */
+/* Avatar image */
+img.avatar {
+  width: 20%;
+  border-radius: 50%;
+}
 .error{
-    color:red;
+  color:red;
 }
 /* label {
-    float:left;
-    font-size: 10px;
-    padding: 10px;
-  
-  } */
-  /* .radio input[type="radio"] + label {
-    color: grey;
-    position:relative;
-  } */
-  /* .radio input[type="radio"] + label::before {
-     Outer Circle of radio button 
-    border: 1px solid grey;
-    content: ' ';
-    display: inline-block;
-    margin-right: 5px;
-    width: 17px;
-    height: 17px;
-    border-radius: 50%;
-    transition: border 0.15s ease-in-out;
-  } */
-  /* .radio input[type="radio"] + label::after {
-     Inner Circle of radio button 
-    border: 1px solid rgb(252, 252, 252);
-    content: ' ';
-    background: transparent;
-    display: inline-block;
-    margin: .6rem;
-    
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    position: absolute;
-    left: 3.6px;
-    top: 5px;
-    transition: border 0.15s ease-in-out;
-    
-  } */
-  /* input[type="radio"] {
-    display:none;
-  } */
-  /* When button is active */
-  /* .radio input[type="radio"]:checked + label::after {
-    background: rgb(255, 255, 255);
-  }
-  
-  .radio input[type="radio"]:checked + label::before {
-    border-color: rgb(250, 250, 250);
-  }
-  
-  .radio input[type="radio"]:checked + label {
-    color: rgb(252, 251, 250);
-  }*/
-  .boxConnexion, .boxInscription h3{ 
-    padding-top: 10px;  
-    color:#ffffff;/*#2196f3*/
-    /* text-transform: uppercase; */
-    font-weight: 500;
-    letter-spacing: 4px;
+  float:left;
+  font-size: 10px;
+  padding: 10px;
+} */
+/* .radio input[type="radio"] + label {
+  color: grey;
+  position:relative;
+} */
+/* .radio input[type="radio"] + label::before {
+   Outer Circle of radio button 
+  border: 1px solid grey;
+  content: ' ';
+  display: inline-block;
+  margin-right: 5px;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  transition: border 0.15s ease-in-out;
+} */
+/* .radio input[type="radio"] + label::after {
+   Inner Circle of radio button 
+  border: 1px solid rgb(252, 252, 252);
+  content: ' ';
+  background: transparent;
+  display: inline-block;
+  margin: .6rem;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  position: absolute;
+  left: 3.6px;
+  top: 5px;
+  transition: border 0.15s ease-in-out;
+} */
+/* input[type="radio"] {
+  display:none;
+} */
+/* When button is active */
+/* .radio input[type="radio"]:checked + label::after {
+  background: rgb(255, 255, 255);
+}
+.radio input[type="radio"]:checked + label::before {
+  border-color: rgb(250, 250, 250);
+}
+.radio input[type="radio"]:checked + label {
+  color: rgb(252, 251, 250);
+}*/
+.boxConnexion, .boxInscription h3{ 
+  padding-top: 10px;  
+  color:#ffffff;/*#2196f3*/
+  /* text-transform: uppercase; */
+  font-weight: 500;
+  letter-spacing: 4px;
 }
 .boxConnexion input[type = "email"],.boxConnexion input[type ="password"]{
-    border: 0;
-    background: none;
-    display: block;
-    margin: 20px auto;
-    text-align: center;
-    border: 1px solid #7d7e80;
-    padding: 14px 20px; 
-    width: 250px;
-    outline: none;
-    color: #ffffff;
-    border-radius: 15px;
-    transition: 0.25s;
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 1px solid #7d7e80;
+  padding: 14px 20px; 
+  width: 250px;
+  outline: none;
+  color: #ffffff;
+  border-radius: 15px;
+  transition: 0.25s;
 }
 .boxConnexion input[type = "email"]:focus, .boxConnexion input[type ="password"]:focus{
-    width: 280px;
-    border-color: #959596;
+  width: 280px;
+  border-color: #959596;
 }
 .boxConnexion button[type = "submit"]{
-    border:0;
-    /* background: #2196f3; */
-    display: block;
-    margin:20px auto;
-    text-align: center;
-    text-decoration: none;
-    letter-spacing: 2px;
-    font-size: 24px;
-    overflow: hidden;
-    border:2px  #a9adad;
-    padding: 14px 60px;
-    outline: none;
-    color:#696a6b;
-    border-radius: 5px;
-    transition: 0.2s;
-    /* cursor: pointer;  */
+border:0;
+display: block;
+margin:20px auto;
+text-align: center;
+text-decoration: none;
+letter-spacing: 2px;
+border:2px  #a9adad;
+padding: 14px 20px;
+outline: none;
+color: #696a6b;
+border-radius: 15px;
+transition: 0.25s;
+/* cursor: pointer; */
+font-size: 24px;
+overflow: hidden;
 }
- .boxConnexion button::before {
-    position: absolute;
-    content: "";
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(
-      120deg,
-      transparent,
-      var(--primary-color),
-      transparent
-    );
-    transform: translateX(-100%);
-    transition: 0.6s;
-  } 
-  .boxConnexion button:hover {
-    background: transparent;
-    box-shadow: 0 0 20px 10px hsla(0, 0%, 55%, 0.5);
-  }
-  /* .boxConnexion button::before {
-    transform: translateX(100%);
-  } */
+.boxConnexion button::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    var(--primary-color),
+    transparent
+  );
+  transform: translateX(-100%);
+  transition: 0.6s;
+} 
+.boxConnexion button:hover {
+  background: transparent;
+  box-shadow: 0 0 20px 10px hsla(0, 0%, 55%, 0.5);
+}
+/* .boxConnexion button::before {
+  transform: translateX(100%);
+} */
 /* .boxConnexion button[type = "submit"]:hover{
-    color:#255784;
-    background:#2196f3;
-    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3 ;
-    transition-delay: 0.5s;
+  color:#255784;
+  background:#2196f3;
+  box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3 ;
+  transition-delay: 0.5s;
 } */
 /* .boxConnexion span {
-    position:relative;
-    display: block;
+  position:relative;
+  display: block;
 } */
 /* .boxConnexion span:nth-child(1){
-    top: 0;
-    left: 100%;
-    width: 100%;
-    height: 2px;
-    background:linear-gradient(90deg,transparent,#8b8c8d);
+  top: 0;
+  left: 100%;
+  width: 100%;
+  height: 2px;
+  background:linear-gradient(90deg,transparent,#8b8c8d);
 } */
 /* .boxConnexion :hover span:nth-child(1){
-    left: 100%;
-    transition:1s;
+  left: 100%;
+  transition:1s;
 } */
 /* .boxConnexion span:nth-child(3){
-    bottom: 0;
-    right: 100%;
-    width: 100%;
-    height: 2px;
-    background:linear-gradient(270deg,transparent,#8a8b8b);
+  bottom: 0;
+  right: 100%;
+  width: 100%;
+  height: 2px;
+  background:linear-gradient(270deg,transparent,#8a8b8b);
 } */
 /* .boxConnexion :hover span:nth-child(3){
-    right: 100%;
-    transition:1s;
-    transition-delay: 0.5s;
+  right: 100%;
+  transition:1s;
+  transition-delay: 0.5s;
 } */
 /* .boxConnexion span:nth-child(2){
-    top: 0;
-    right: 100%;
-    width: 2px;
-    height: 100%;
-    background:linear-gradient(180deg,transparent,#878788);
+  top: 0;
+  right: 100%;
+  width: 2px;
+  height: 100%;
+  background:linear-gradient(180deg,transparent,#878788);
 } */
 /* .boxConnexion :hover span:nth-child(2){
-    top: 100%;
-    transition:1s;
-    transition-delay: 0.25s;
+  top: 100%;
+  transition:1s;
+  transition-delay: 0.25s;
 } */
 /* .boxConnexion span:nth-child(4){
-    bottom: 0;
-    left: 0;
-    width: 2px;
-    height: 100%;
-    background:linear-gradient(360deg,transparent,#2196f3);
+  bottom: 0;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background:linear-gradient(360deg,transparent,#2196f3);
 } */
 /* .boxConnexion :hover span:nth-child(4){
-    top: 100%;
-    transition:1s;
-    transition-delay: 0.75s;
+  top: 100%;
+  transition:1s;
+  transition-delay: 0.75s;
 } */
 .Account{
-    color: white;
-    font: 0.8em sans-serif;
-    padding-top: 20px;
-    padding-left:10px;
-    /* padding-bottom: 20px; */
-  display:flex;
-  justify-content:center;
+  color: white;
+  font: 0.8em sans-serif;
+  padding-top: 20px;
+  padding-left:10px;
+  /* padding-bottom: 20px; */
+display:flex;
+justify-content:center;
 }
 .inscrivezvous {
-    text-align:center;
+  text-align:center;
 }
-
 #inscrivezvous2 {
-    text-align:center;
-    padding-left:50px;
+  text-align:center;
+  padding-left:50px;
 }
 .Account a{
-    color: white;
+  color: white;
 }
 .boxInscription input[type = "text"], .boxInscription input[type ="password"], .boxInscription input[type = "email"]{
-    border: 0;
-    background: none;
-    display: block;
-    margin: 20px auto;
-    text-align: center;
-    border: 1px solid #7d7e80;
-    padding: 14px 20px; 
-    width: 250px;
-    outline: none;
-    color: #ffffff;
-    border-radius: 15px;
-    transition: 0.25s;
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 1px solid #7d7e80;
+  padding: 14px 20px; 
+  width: 250px;
+  outline: none;
+  color: #ffffff;
+  border-radius: 15px;
+  transition: 0.25s;
 }
 .boxInscription input[type = "text"]:focus, .boxInscription input[type ="password"]:focus{
-    width: 280px;
-    border-color: #959596;
+  width: 280px;
+  border-color: #959596;
 }
 .boxInscription button[type = "submit"]{
-    border:0;
-    display: block;
-    margin:20px auto;
-    text-align: center;
-    text-decoration: none;
-    letter-spacing: 2px;
-    border:2px  #a9adad;
-    padding: 14px 60px;
-    outline: none;
-    color: #696a6b;
-    border-radius: 15px;
-    transition: 0.25s;
-    /* cursor: pointer; */
-    font-size: 24px;
-    overflow: hidden;
+  border:0;
+  display: block;
+  margin:20px auto;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 2px;
+  border:2px  #a9adad;
+  padding: 14px 60px;
+  outline: none;
+  color: #696a6b;
+  border-radius: 15px;
+  transition: 0.25s;
+  /* cursor: pointer; */
+  font-size: 24px;
+  overflow: hidden;
 }
 .boxInscription button::before {
-    position: absolute;
-    content: "";
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(
-      120deg,
-      transparent,
-      var(--primary-color),
-      transparent
-    );
-    transform: translateX(-100%);
-    transition: 0.6s;
-  } 
-  .boxInscription button:hover {
-    background: transparent;
-    box-shadow: 0 0 20px 10px hsla(0, 0%, 55%, 0.5);
-  }
-/* .copy{
-    height:50px;
-    padding:0;
-    margin:0;
-    font-size: 15px;
-    color: rgb(240, 233, 233);
-    text-align: center;
-    margin-bottom: 7px;
-    margin-top: 18px;
-} */
-/* footer {
-    padding:0;
-    margin:0;
-    clear:both;
-    position:relative;
-    height:120px;
-    background-color: black;
-    width: 100%;
-    
-} */
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    var(--primary-color),
+    transparent
+  );
+  transform: translateX(-100%);
+  transition: 0.6s;
+} 
+.boxInscription button:hover {
+  background: transparent;
+  box-shadow: 0 0 20px 10px hsla(0, 0%, 55%, 0.5);
+}
+
